@@ -1,0 +1,1525 @@
+Header.Version	:	1.0.0
+Header.Creator	:	MikiraSora
+Header.FirstBpm	:	206
+Header.CommonBpm	:	206
+Header.MaximumBpm	:	206
+Header.MinimumBpm	:	206
+Header.Meter	:	4 / 4
+Header.TRESOLUTION	:	1920
+Header.XRESOLUTION	:	4096
+Header.ClickDefinition	:	1920
+Header.Tutorial	:	False
+Header.BeamDamage	:	2
+Header.HardBulletDamage	:	2
+Header.DangerBulletDamage	:	4
+Header.BulletDamage	:	1
+Header.ProgJudgeBpm	:	240
+
+BulletPallete	:	A0	:	Target[FixField], Size[Normal], Type[Circle], Speed[1], PlaceOffset[0], Shooter[TargetHead]
+BulletPallete	:	A1	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.1], PlaceOffset[-24], Shooter[Center]
+BulletPallete	:	A2	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.15], PlaceOffset[-24], Shooter[Center]
+BulletPallete	:	A3	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.2], PlaceOffset[-24], Shooter[Center]
+BulletPallete	:	A4	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.25], PlaceOffset[-24], Shooter[Center]
+BulletPallete	:	A5	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.3], PlaceOffset[-24], Shooter[Center]
+BulletPallete	:	A6	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.1], PlaceOffset[24], Shooter[Center]
+BulletPallete	:	A7	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.15], PlaceOffset[24], Shooter[Center]
+BulletPallete	:	A8	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.2], PlaceOffset[24], Shooter[Center]
+BulletPallete	:	A9	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.25], PlaceOffset[24], Shooter[Center]
+BulletPallete	:	AA	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.3], PlaceOffset[24], Shooter[Center]
+BulletPallete	:	AB	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.1], PlaceOffset[0], Shooter[TargetHead]
+BulletPallete	:	AC	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.15], PlaceOffset[0], Shooter[TargetHead]
+BulletPallete	:	AD	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.2], PlaceOffset[0], Shooter[TargetHead]
+BulletPallete	:	AE	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.25], PlaceOffset[0], Shooter[TargetHead]
+BulletPallete	:	AF	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.3], PlaceOffset[0], Shooter[TargetHead]
+BulletPallete	:	AG	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.1], PlaceOffset[24], Shooter[Center]
+BulletPallete	:	AH	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.1], PlaceOffset[-24], Shooter[Center]
+BulletPallete	:	AI	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.125], PlaceOffset[-24], Shooter[Center]
+BulletPallete	:	AJ	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.15], PlaceOffset[-24], Shooter[Center]
+BulletPallete	:	AK	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.175], PlaceOffset[-24], Shooter[Center]
+BulletPallete	:	AL	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.2], PlaceOffset[-24], Shooter[Center]
+BulletPallete	:	AM	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.1], PlaceOffset[24], Shooter[Center]
+BulletPallete	:	AN	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.125], PlaceOffset[24], Shooter[Center]
+BulletPallete	:	AO	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.15], PlaceOffset[24], Shooter[Center]
+BulletPallete	:	AP	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.175], PlaceOffset[24], Shooter[Center]
+BulletPallete	:	AQ	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.2], PlaceOffset[24], Shooter[Center]
+BulletPallete	:	AR	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.1], PlaceOffset[0], Shooter[Center]
+BulletPallete	:	AS	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.125], PlaceOffset[0], Shooter[Center]
+BulletPallete	:	AT	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.15], PlaceOffset[0], Shooter[Center]
+BulletPallete	:	AU	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.175], PlaceOffset[0], Shooter[Center]
+BulletPallete	:	AV	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.2], PlaceOffset[0], Shooter[Center]
+BulletPallete	:	AW	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.1], PlaceOffset[0], Shooter[Center]
+BulletPallete	:	AX	:	Target[FixField], Size[Normal], Type[Circle], Speed[1], PlaceOffset[0], Shooter[TargetHead]
+BulletPallete	:	AY	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.05], PlaceOffset[0], Shooter[Center]
+BulletPallete	:	AZ	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.15], PlaceOffset[0], Shooter[Center]
+BulletPallete	:	B0	:	Target[Player], Size[Normal], Type[Circle], Speed[1.15], PlaceOffset[0], Shooter[Center]
+BulletPallete	:	B1	:	Target[Player], Size[Normal], Type[Needle], Speed[1.05], PlaceOffset[0], Shooter[Center]
+BulletPallete	:	B2	:	Target[FixField], Size[Normal], Type[Circle], Speed[1], PlaceOffset[0], Shooter[TargetHead]
+BulletPallete	:	B3	:	Target[Player], Size[Normal], Type[Needle], Speed[1.1], PlaceOffset[0], Shooter[TargetHead]
+BulletPallete	:	B4	:	Target[Player], Size[Normal], Type[Needle], Speed[1.2], PlaceOffset[0], Shooter[TargetHead]
+BulletPallete	:	B5	:	Target[Player], Size[Normal], Type[Needle], Speed[1.3], PlaceOffset[0], Shooter[TargetHead]
+BulletPallete	:	B6	:	Target[Player], Size[Normal], Type[Needle], Speed[1.4], PlaceOffset[0], Shooter[TargetHead]
+BulletPallete	:	B7	:	Target[FixField], Size[Normal], Type[Needle], Speed[1], PlaceOffset[0], Shooter[Center]
+BulletPallete	:	B8	:	Target[FixField], Size[Normal], Type[Circle], Speed[1], PlaceOffset[0], Shooter[Center]
+BulletPallete	:	B9	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.1], PlaceOffset[0], Shooter[Center]
+BulletPallete	:	BA	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.125], PlaceOffset[0], Shooter[Center]
+BulletPallete	:	BB	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.15], PlaceOffset[0], Shooter[Center]
+BulletPallete	:	BC	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.175], PlaceOffset[0], Shooter[Center]
+BulletPallete	:	BD	:	Target[FixField], Size[Normal], Type[Needle], Speed[1.2], PlaceOffset[0], Shooter[Center]
+
+EnemySet	:	Wave1	:	T[0,0]
+EnemySet	:	Boss	:	T[72,0]
+MeterChange	:	4/4	:	T[8,0]
+MeterChange	:	4/4	:	T[56,0]
+MeterChange	:	4/4	:	T[80,0]
+MeterChange	:	4/4	:	T[84,0]
+MeterChange	:	4/4	:	T[85,0]
+MeterChange	:	4/4	:	T[86,0]
+MeterChange	:	4/4	:	T[90,0]
+
+
+Soflan	:	0.9	:	(T[48,0])	->	(T[48,960])
+Soflan	:	0.8	:	(T[48,960])	->	(T[49,0])
+Soflan	:	0.7	:	(T[49,0])	->	(T[49,960])
+Soflan	:	0.6	:	(T[49,960])	->	(T[50,0])
+Soflan	:	0.5	:	(T[50,0])	->	(T[52,0])
+Soflan	:	0.6	:	(T[52,0])	->	(T[52,960])
+Soflan	:	0.7	:	(T[52,960])	->	(T[53,0])
+Soflan	:	0.8	:	(T[53,0])	->	(T[53,960])
+Soflan	:	0.9	:	(T[53,960])	->	(T[54,0])
+Soflan	:	1500	:	(T[55,120])	->	(T[55,240])
+Soflan	:	0	:	(T[55,240])	->	(T[55,960])
+Soflan	:	0.25	:	(T[55,960])	->	(T[55,1200])
+Soflan	:	0.5	:	(T[55,1200])	->	(T[55,1440])
+Soflan	:	0.75	:	(T[55,1440])	->	(T[55,1680])
+Soflan	:	1000	:	(T[86,15])	->	(T[86,30])
+Soflan	:	0.5	:	(T[86,30])	->	(T[87,960])
+Soflan	:	1000	:	(T[88,1800])	->	(T[88,1860])
+Soflan	:	0	:	(T[88,1860])	->	(T[89,300])
+Soflan	:	-0.75	:	(T[89,300])	->	(T[89,600])
+Soflan	:	-0.5	:	(T[89,600])	->	(T[89,660])
+Soflan	:	-0.25	:	(T[89,660])	->	(T[89,720])
+Soflan	:	0	:	(T[89,720])	->	(T[89,840])
+Soflan	:	0.5	:	(T[89,840])	->	(T[89,1140])
+Soflan	:	0.6	:	(T[89,1140])	->	(T[89,1380])
+Soflan	:	0.75	:	(T[89,1380])	->	(T[89,1560])
+Soflan	:	1.1	:	(T[89,1560])	->	(T[89,1740])
+Soflan	:	1000	:	(T[106,240])	->	(T[106,241])
+
+Lane	:	73	:	(Type[CLS], X[8,0], T[49,960], C[Alice,3])	->	(Type[CLN], X[-16,0], T[50,480], C[Akari,3])	->	(Type[CLE], X[-16,0], T[50,1386], C[Akari,3])
+Lane	:	74	:	(Type[CLS], X[-16,0], T[50,1493], C[Alice,3])	->	(Type[CLE], X[-16,0], T[50,1653], C[Alice,3])
+Lane	:	75	:	(Type[CLS], X[-16,0], T[50,1760], C[Alice,3])	->	(Type[CLE], X[-16,0], T[51,0], C[Alice,3])
+Lane	:	76	:	(Type[CLS], X[-16,0], T[51,53], C[Alice,3])	->	(Type[CLE], X[-16,0], T[51,160], C[Alice,3])
+Lane	:	77	:	(Type[CLS], X[-16,0], T[51,192], C[Alice,3])	->	(Type[CLE], X[-16,0], T[51,224], C[Alice,3])
+Lane	:	203	:	(Type[CLS], X[-25,0], T[86,1714], C[Aoi,3])	->	(Type[CLN], X[-24,0], T[86,1744], C[Aoi,3])	->	(Type[CLN], X[-22,0], T[86,1782], C[Aoi,3])	->	(Type[CLN], X[-21,0], T[86,1800], C[Aoi,3])	->	(Type[CLN], X[-20,0], T[86,1817], C[Aoi,3])	->	(Type[CLN], X[-19,0], T[86,1836], C[Aoi,3])	->	(Type[CLN], X[-15,0], T[86,1837], C[Aoi,3])	->	(Type[CLN], X[-13,0], T[86,1856], C[Aoi,3])	->	(Type[CLN], X[-9,0], T[87,64], C[Aoi,3])	->	(Type[CLN], X[-6,0], T[87,147], C[Aoi,3])	->	(Type[CLN], X[-1,0], T[87,242], C[Aoi,3])	->	(Type[CLE], X[4,0], T[87,299], C[Aoi,3])
+Lane	:	204	:	(Type[CLS], X[-10,0], T[86,1682], C[Aoi,3])	->	(Type[CLN], X[-9,0], T[86,1697], C[Aoi,3])	->	(Type[CLN], X[-9,0], T[86,1717], C[Aoi,3])	->	(Type[CLN], X[-9,0], T[86,1727], C[Aoi,3])	->	(Type[CLN], X[-10,0], T[86,1778], C[Aoi,3])	->	(Type[CLN], X[-11,0], T[86,1809], C[Aoi,3])	->	(Type[CLN], X[-11,0], T[86,1841], C[Aoi,3])	->	(Type[CLN], X[-8,0], T[86,1883], C[Aoi,3])	->	(Type[CLN], X[-5,0], T[86,1918], C[Aoi,3])	->	(Type[CLN], X[-1,0], T[87,31], C[Aoi,3])	->	(Type[CLN], X[3,0], T[87,48], C[Aoi,3])	->	(Type[CLN], X[6,0], T[87,58], C[Aoi,3])	->	(Type[CLN], X[10,0], T[87,84], C[Aoi,3])	->	(Type[CLN], X[12,0], T[87,109], C[Aoi,3])	->	(Type[CLN], X[14,0], T[87,135], C[Aoi,3])	->	(Type[CLN], X[16,0], T[87,168], C[Aoi,3])	->	(Type[CLN], X[18,0], T[87,201], C[Aoi,3])	->	(Type[CLN], X[20,0], T[87,235], C[Aoi,3])	->	(Type[CLN], X[21,0], T[87,266], C[Aoi,3])	->	(Type[CLN], X[22,0], T[87,303], C[Aoi,3])	->	(Type[CLN], X[23,0], T[87,334], C[Aoi,3])	->	(Type[CLN], X[24,0], T[87,363], C[Aoi,3])	->	(Type[CLN], X[25,0], T[87,377], C[Aoi,3])	->	(Type[CLN], X[25,0], T[87,390], C[Aoi,3])	->	(Type[CLN], X[24,0], T[87,409], C[Aoi,3])	->	(Type[CLN], X[23,0], T[87,422], C[Aoi,3])	->	(Type[CLE], X[22,0], T[87,426], C[Aoi,3])
+Lane	:	205	:	(Type[CLS], X[14,0], T[86,1827], C[Aoi,3])	->	(Type[CLN], X[15,0], T[86,1871], C[Aoi,3])	->	(Type[CLN], X[16,0], T[87,10], C[Aoi,3])	->	(Type[CLN], X[16,0], T[87,82], C[Aoi,3])	->	(Type[CLE], X[15,0], T[87,154], C[Aoi,3])
+Lane	:	206	:	(Type[CLS], X[14,0], T[86,1827], C[Aoi,3])	->	(Type[CLN], X[14,0], T[87,8], C[Aoi,3])	->	(Type[CLE], X[12,0], T[87,110], C[Aoi,3])
+Lane	:	207	:	(Type[CLS], X[-10,0], T[86,1683], C[Aoi,3])	->	(Type[CLN], X[-13,0], T[86,1728], C[Aoi,3])	->	(Type[CLN], X[-14,0], T[86,1756], C[Aoi,3])	->	(Type[CLE], X[-14,0], T[86,1773], C[Aoi,3])
+Lane	:	208	:	(Type[CLS], X[-25,0], T[86,1714], C[Aoi,3])	->	(Type[CLN], X[-21,0], T[86,1740], C[Aoi,3])	->	(Type[CLN], X[-18,0], T[86,1753], C[Aoi,3])	->	(Type[CLN], X[-16,0], T[86,1760], C[Aoi,3])	->	(Type[CLE], X[-14,0], T[86,1774], C[Aoi,3])
+Lane	:	209	:	(Type[CLS], X[7,0], T[87,258], C[Aoi,3])	->	(Type[CLN], X[5,0], T[87,287], C[Aoi,3])	->	(Type[CLN], X[2,0], T[87,307], C[Aoi,3])	->	(Type[CLN], X[-4,0], T[87,321], C[Aoi,3])	->	(Type[CLN], X[-6,0], T[87,333], C[Aoi,3])	->	(Type[CLN], X[-7,0], T[87,344], C[Aoi,3])	->	(Type[CLN], X[-6,0], T[87,368], C[Aoi,3])	->	(Type[CLN], X[-5,0], T[87,378], C[Aoi,3])	->	(Type[CLN], X[-3,0], T[87,388], C[Aoi,3])	->	(Type[CLE], X[0,0], T[87,391], C[Aoi,3])
+Lane	:	210	:	(Type[CLS], X[8,0], T[87,341], C[Aoi,3])	->	(Type[CLN], X[6,0], T[87,366], C[Aoi,3])	->	(Type[CLN], X[4,0], T[87,379], C[Aoi,3])	->	(Type[CLE], X[0,0], T[87,391], C[Aoi,3])
+Lane	:	211	:	(Type[CLS], X[-9,0], T[87,64], C[Alice,3])	->	(Type[CLN], X[-4,0], T[87,94], C[Aoi,3])	->	(Type[CLN], X[1,0], T[87,141], C[Aoi,3])	->	(Type[CLN], X[3,0], T[87,189], C[Aoi,3])	->	(Type[CLN], X[5,0], T[87,218], C[Aoi,3])	->	(Type[CLN], X[6,0], T[87,230], C[Aoi,3])	->	(Type[CLN], X[8,0], T[87,249], C[Aoi,3])	->	(Type[CLN], X[10,0], T[87,259], C[Aoi,3])	->	(Type[CLN], X[16,0], T[87,338], C[Aoi,3])	->	(Type[CLN], X[18,0], T[87,366], C[Aoi,3])	->	(Type[CLN], X[20,0], T[87,387], C[Aoi,3])	->	(Type[CLN], X[21,0], T[87,393], C[Aoi,3])	->	(Type[CLN], X[23,0], T[87,388], C[Aoi,3])	->	(Type[CLE], X[25,0], T[87,377], C[Aoi,3])
+Lane	:	212	:	(Type[CLS], X[-21,0], T[86,1800], C[Alice,3])	->	(Type[CLN], X[-19,0], T[86,1812], C[Aoi,3])	->	(Type[CLN], X[-17,0], T[86,1818], C[Aoi,3])	->	(Type[CLN], X[-14,0], T[86,1815], C[Aoi,3])	->	(Type[CLE], X[-13,0], T[86,1855], C[Aoi,3])
+Lane	:	213	:	(Type[CLS], X[8,0], T[87,336], C[Aoi,3])	->	(Type[CLN], X[10,0], T[87,361], C[Aoi,3])	->	(Type[CLN], X[14,0], T[87,394], C[Aoi,3])	->	(Type[CLN], X[18,0], T[87,417], C[Aoi,3])	->	(Type[CLE], X[22,0], T[87,427], C[Aoi,3])
+Lane	:	214	:	(Type[CLS], X[-8,0], T[87,561], C[Alice,3])	->	(Type[CLN], X[-8,0], T[87,591], C[Akari,3])	->	(Type[CLN], X[-7,0], T[87,591], C[Akari,3])	->	(Type[CLN], X[-7,0], T[87,561], C[Akari,3])	->	(Type[CLE], X[-8,0], T[87,561], C[Akari,3])
+Lane	:	215	:	(Type[CLS], X[-30,0], T[87,231], C[Alice,3])	->	(Type[CLN], X[-30,0], T[87,261], C[Akari,3])	->	(Type[CLN], X[-29,0], T[87,261], C[Akari,3])	->	(Type[CLN], X[-29,0], T[87,231], C[Akari,3])	->	(Type[CLE], X[-30,0], T[87,231], C[Akari,3])
+Lane	:	216	:	(Type[CLS], X[-4,0], T[87,453], C[Alice,3])	->	(Type[CLN], X[-6,0], T[87,483], C[Akari,3])	->	(Type[CLN], X[-6,0], T[87,529], C[Akari,3])	->	(Type[CLN], X[-4,0], T[87,559], C[Akari,3])	->	(Type[CLN], X[-2,0], T[87,559], C[Akari,3])	->	(Type[CLN], X[0,0], T[87,529], C[Akari,3])	->	(Type[CLN], X[0,0], T[87,483], C[Akari,3])	->	(Type[CLN], X[-2,0], T[87,453], C[Akari,3])	->	(Type[CLE], X[-4,0], T[87,453], C[Akari,3])
+Lane	:	217	:	(Type[CLS], X[-27,0], T[87,501], C[Alice,3])	->	(Type[CLN], X[-27,0], T[87,531], C[Akari,3])	->	(Type[CLN], X[-26,0], T[87,531], C[Akari,3])	->	(Type[CLN], X[-26,0], T[87,501], C[Akari,3])	->	(Type[CLE], X[-27,0], T[87,501], C[Akari,3])
+Lane	:	218	:	(Type[CLS], X[-18,0], T[87,341], C[Alice,3])	->	(Type[CLN], X[-18,0], T[87,371], C[Akari,3])	->	(Type[CLN], X[-17,0], T[87,371], C[Akari,3])	->	(Type[CLN], X[-17,0], T[87,341], C[Akari,3])	->	(Type[CLE], X[-18,0], T[87,341], C[Akari,3])
+Lane	:	219	:	(Type[CLS], X[10,0], T[86,1601], C[Alice,3])	->	(Type[CLN], X[10,0], T[86,1631], C[Akari,3])	->	(Type[CLN], X[11,0], T[86,1631], C[Akari,3])	->	(Type[CLN], X[11,0], T[86,1601], C[Akari,3])	->	(Type[CLE], X[10,0], T[86,1601], C[Akari,3])
+Lane	:	220	:	(Type[CLS], X[-12,0], T[86,1271], C[Alice,3])	->	(Type[CLN], X[-12,0], T[86,1301], C[Akari,3])	->	(Type[CLN], X[-11,0], T[86,1301], C[Akari,3])	->	(Type[CLN], X[-11,0], T[86,1271], C[Akari,3])	->	(Type[CLE], X[-12,0], T[86,1271], C[Akari,3])
+Lane	:	221	:	(Type[CLS], X[14,0], T[86,1493], C[Alice,3])	->	(Type[CLN], X[12,0], T[86,1523], C[Akari,3])	->	(Type[CLN], X[12,0], T[86,1569], C[Akari,3])	->	(Type[CLN], X[14,0], T[86,1599], C[Akari,3])	->	(Type[CLN], X[16,0], T[86,1599], C[Akari,3])	->	(Type[CLN], X[18,0], T[86,1569], C[Akari,3])	->	(Type[CLN], X[18,0], T[86,1523], C[Akari,3])	->	(Type[CLN], X[16,0], T[86,1493], C[Akari,3])	->	(Type[CLE], X[14,0], T[86,1493], C[Akari,3])
+Lane	:	222	:	(Type[CLS], X[-9,0], T[86,1541], C[Alice,3])	->	(Type[CLN], X[-9,0], T[86,1571], C[Akari,3])	->	(Type[CLN], X[-8,0], T[86,1571], C[Akari,3])	->	(Type[CLN], X[-8,0], T[86,1541], C[Akari,3])	->	(Type[CLE], X[-9,0], T[86,1541], C[Akari,3])
+Lane	:	223	:	(Type[CLS], X[0,0], T[86,1381], C[Alice,3])	->	(Type[CLN], X[0,0], T[86,1411], C[Akari,3])	->	(Type[CLN], X[1,0], T[86,1411], C[Akari,3])	->	(Type[CLN], X[1,0], T[86,1381], C[Akari,3])	->	(Type[CLE], X[0,0], T[86,1381], C[Akari,3])
+Lane	:	224	:	(Type[CLS], X[-22,0], T[86,1393], C[Alice,3])	->	(Type[CLN], X[-24,0], T[86,1423], C[Akari,3])	->	(Type[CLN], X[-24,0], T[86,1469], C[Akari,3])	->	(Type[CLN], X[-22,0], T[86,1499], C[Akari,3])	->	(Type[CLN], X[-20,0], T[86,1499], C[Akari,3])	->	(Type[CLN], X[-18,0], T[86,1469], C[Akari,3])	->	(Type[CLN], X[-18,0], T[86,1423], C[Akari,3])	->	(Type[CLN], X[-20,0], T[86,1393], C[Akari,3])	->	(Type[CLE], X[-22,0], T[86,1393], C[Akari,3])
+Lane	:	226	:	(Type[CLS], X[3,0], T[86,1780], C[Alice,3])	->	(Type[CLN], X[3,0], T[86,1810], C[Akari,3])	->	(Type[CLN], X[4,0], T[86,1810], C[Akari,3])	->	(Type[CLN], X[4,0], T[86,1780], C[Akari,3])	->	(Type[CLE], X[3,0], T[86,1780], C[Akari,3])
+Lane	:	227	:	(Type[CLS], X[9,0], T[87,591], C[Alice,3])	->	(Type[CLN], X[9,0], T[87,621], C[Akari,3])	->	(Type[CLN], X[10,0], T[87,621], C[Akari,3])	->	(Type[CLN], X[10,0], T[87,591], C[Akari,3])	->	(Type[CLE], X[9,0], T[87,591], C[Akari,3])
+Lane	:	228	:	(Type[CLS], X[20,0], T[87,753], C[Alice,3])	->	(Type[CLN], X[18,0], T[87,783], C[Akari,3])	->	(Type[CLN], X[18,0], T[87,829], C[Akari,3])	->	(Type[CLN], X[20,0], T[87,859], C[Akari,3])	->	(Type[CLN], X[22,0], T[87,859], C[Akari,3])	->	(Type[CLN], X[24,0], T[87,829], C[Akari,3])	->	(Type[CLN], X[24,0], T[87,783], C[Akari,3])	->	(Type[CLN], X[22,0], T[87,753], C[Akari,3])	->	(Type[CLE], X[20,0], T[87,753], C[Akari,3])
+Lane	:	229	:	(Type[CLS], X[-4,0], T[86,900], C[Alice,3])	->	(Type[CLN], X[-6,0], T[86,930], C[Akari,3])	->	(Type[CLN], X[-6,0], T[86,975], C[Akari,3])	->	(Type[CLN], X[-4,0], T[86,1005], C[Akari,3])	->	(Type[CLN], X[-2,0], T[86,1005], C[Akari,3])	->	(Type[CLN], X[0,0], T[86,975], C[Akari,3])	->	(Type[CLN], X[0,0], T[86,930], C[Akari,3])	->	(Type[CLN], X[-2,0], T[86,900], C[Akari,3])	->	(Type[CLE], X[-4,0], T[86,900], C[Akari,3])
+Lane	:	230	:	(Type[CLS], X[-17,0], T[86,1140], C[Alice,3])	->	(Type[CLN], X[-18,0], T[86,1170], C[Akari,3])	->	(Type[CLN], X[-18,0], T[86,1170], C[Akari,3])	->	(Type[CLN], X[-17,0], T[86,1200], C[Akari,3])	->	(Type[CLN], X[-16,0], T[86,1200], C[Akari,3])	->	(Type[CLN], X[-15,0], T[86,1170], C[Akari,3])	->	(Type[CLN], X[-15,0], T[86,1170], C[Akari,3])	->	(Type[CLN], X[-16,0], T[86,1140], C[Akari,3])	->	(Type[CLE], X[-17,0], T[86,1140], C[Akari,3])
+Lane	:	231	:	(Type[CLS], X[-15,0], T[87,735], C[Alice,3])	->	(Type[CLN], X[-16,0], T[87,765], C[Akari,3])	->	(Type[CLN], X[-16,0], T[87,765], C[Akari,3])	->	(Type[CLN], X[-15,0], T[87,795], C[Akari,3])	->	(Type[CLN], X[-14,0], T[87,795], C[Akari,3])	->	(Type[CLN], X[-13,0], T[87,765], C[Akari,3])	->	(Type[CLN], X[-13,0], T[87,765], C[Akari,3])	->	(Type[CLN], X[-14,0], T[87,735], C[Akari,3])	->	(Type[CLE], X[-15,0], T[87,735], C[Akari,3])
+Lane	:	232	:	(Type[CLS], X[18,0], T[86,1830], C[Alice,3])	->	(Type[CLN], X[17,0], T[86,1860], C[Akari,3])	->	(Type[CLN], X[17,0], T[86,1860], C[Akari,3])	->	(Type[CLN], X[18,0], T[86,1890], C[Akari,3])	->	(Type[CLN], X[19,0], T[86,1890], C[Akari,3])	->	(Type[CLN], X[20,0], T[86,1860], C[Akari,3])	->	(Type[CLN], X[20,0], T[86,1860], C[Akari,3])	->	(Type[CLN], X[19,0], T[86,1830], C[Akari,3])	->	(Type[CLE], X[18,0], T[86,1830], C[Akari,3])
+Lane	:	233	:	(Type[CLS], X[22,0], T[86,1875], C[Alice,3])	->	(Type[CLN], X[20,0], T[86,1905], C[Akari,3])	->	(Type[CLN], X[20,0], T[87,30], C[Akari,3])	->	(Type[CLN], X[22,0], T[87,60], C[Akari,3])	->	(Type[CLN], X[24,0], T[87,60], C[Akari,3])	->	(Type[CLN], X[26,0], T[87,30], C[Akari,3])	->	(Type[CLN], X[26,0], T[86,1905], C[Akari,3])	->	(Type[CLN], X[24,0], T[86,1875], C[Akari,3])	->	(Type[CLE], X[22,0], T[86,1875], C[Akari,3])
+Lane	:	234	:	(Type[CLS], X[-14,0], T[87,915], C[Alice,3])	->	(Type[CLN], X[-16,0], T[87,945], C[Akari,3])	->	(Type[CLN], X[-16,0], T[87,975], C[Akari,3])	->	(Type[CLN], X[-14,0], T[87,990], C[Akari,3])	->	(Type[CLN], X[-12,0], T[87,990], C[Akari,3])	->	(Type[CLN], X[-10,0], T[87,975], C[Akari,3])	->	(Type[CLN], X[-10,0], T[87,945], C[Akari,3])	->	(Type[CLN], X[-12,0], T[87,915], C[Akari,3])	->	(Type[CLE], X[-14,0], T[87,915], C[Akari,3])
+Lane	:	241	:	(Type[CLS], X[12,0], T[110,840], C[Alice,3])	->	(Type[CLE], X[-24,0], T[110,1440], C[Akari,3])
+Lane	:	242	:	(Type[CLS], X[12,0], T[110,1800], C[Alice,3])	->	(Type[CLE], X[-24,0], T[111,480], C[Akari,3])
+Lane	:	243	:	(Type[CLS], X[12,0], T[111,720], C[Alice,3])	->	(Type[CLE], X[-24,0], T[111,1320], C[Akari,3])
+Lane	:	244	:	(Type[CLS], X[12,0], T[148,120], C[Akari,3])	->	(Type[CLE], X[-24,0], T[148,720], C[Akari,3])
+Lane	:	245	:	(Type[CLS], X[12,0], T[111,1800], C[Alice,3])	->	(Type[CLE], X[-24,0], T[112,480], C[Akari,3])
+Lane	:	246	:	(Type[CLS], X[12,0], T[109,1800], C[Alice,3])	->	(Type[CLE], X[-24,0], T[110,480], C[Akari,3])
+
+Lane	:	7	:	(Type[LRS], X[0,0], T[98,480])	->	(Type[LRN], X[-6,0], T[99,960])	->	(Type[LRN], X[-6,0], T[100,0])	->	(Type[LRN], X[-12,0], T[100,480])	->	(Type[LRE], X[0,0], T[100,960])
+Lane	:	9	:	(Type[LRS], X[12,0], T[98,480])	->	(Type[LRN], X[18,0], T[99,960])	->	(Type[LRN], X[18,0], T[100,0])	->	(Type[LRN], X[-12,0], T[100,480])	->	(Type[LRE], X[0,0], T[100,960])
+Lane	:	16	:	(Type[LRS], X[12,0], T[2,0])	->	(Type[LRE], X[12,0], T[2,0])
+Lane	:	18	:	(Type[LRS], X[12,0], T[5,0])	->	(Type[LRE], X[12,0], T[5,0])
+Lane	:	19	:	(Type[LRS], X[12,0], T[5,960])	->	(Type[LRE], X[12,0], T[5,960])
+Lane	:	25	:	(Type[LRS], X[12,0], T[6,960])	->	(Type[LRE], X[12,0], T[6,960])
+Lane	:	26	:	(Type[LRS], X[12,0], T[6,1200])	->	(Type[LRE], X[12,0], T[6,1200])
+Lane	:	29	:	(Type[LRS], X[12,0], T[6,1680])	->	(Type[LRE], X[12,0], T[6,1680])
+Lane	:	35	:	(Type[LRS], X[18,0], T[7,1680])	->	(Type[LRN], X[18,0], T[9,1440])	->	(Type[LRN], X[-6,0], T[10,0])	->	(Type[LRN], X[-6,0], T[11,1440])	->	(Type[LRN], X[6,0], T[12,0])	->	(Type[LRN], X[6,0], T[13,1560])	->	(Type[LRN], X[-6,0], T[13,1800])	->	(Type[LRN], X[6,0], T[14,480])	->	(Type[LRN], X[6,0], T[15,1680])	->	(Type[LRN], X[18,0], T[16,0])	->	(Type[LRN], X[18,0], T[16,1440])	->	(Type[LRN], X[18,0], T[17,240])	->	(Type[LRN], X[6,0], T[17,1440])	->	(Type[LRN], X[6,0], T[18,1680])	->	(Type[LRN], X[6,0], T[19,1440])	->	(Type[LRN], X[6,0], T[20,0])	->	(Type[LRN], X[18,0], T[20,480])	->	(Type[LRN], X[18,0], T[21,0])	->	(Type[LRN], X[-6,0], T[21,480])	->	(Type[LRN], X[-6,0], T[22,1680])	->	(Type[LRN], X[18,0], T[23,240])	->	(Type[LRE], X[18,0], T[23,480])
+Lane	:	40	:	(Type[LRS], X[18,0], T[21,1440])	->	(Type[LRN], X[18,0], T[22,1680])	->	(Type[LRN], X[-6,0], T[23,240])	->	(Type[LRE], X[-6,0], T[23,1200])
+Lane	:	41	:	(Type[LRS], X[12,0], T[24,0])	->	(Type[LRE], X[-6,0], T[24,720])
+Lane	:	43	:	(Type[LRS], X[18,0], T[24,1440])	->	(Type[LRE], X[-6,0], T[25,240])
+Lane	:	45	:	(Type[LRS], X[18,0], T[25,960])	->	(Type[LRE], X[6,0], T[25,1440])
+Lane	:	47	:	(Type[LRS], X[18,0], T[26,0])	->	(Type[LRN], X[18,0], T[27,240])	->	(Type[LRN], X[6,0], T[27,720])	->	(Type[LRN], X[6,0], T[28,0])	->	(Type[LRN], X[18,0], T[28,480])	->	(Type[LRN], X[18,0], T[30,720])	->	(Type[LRE], X[18,0], T[30,1440])
+Lane	:	48	:	(Type[LRS], X[18,0], T[30,1440])	->	(Type[LRN], X[12,0], T[31,0])	->	(Type[LRN], X[12,0], T[31,1680])	->	(Type[LRE], X[12,0], T[32,0])
+Lane	:	53	:	(Type[LRS], X[16,0], T[35,240])	->	(Type[LRN], X[0,0], T[35,1440])	->	(Type[LRN], X[0,0], T[36,240])	->	(Type[LRN], X[8,0], T[36,1200])	->	(Type[LRN], X[16,0], T[38,0])	->	(Type[LRE], X[16,0], T[39,1200])
+Lane	:	56	:	(Type[LRS], X[12,0], T[32,0])	->	(Type[LRN], X[12,0], T[32,960])	->	(Type[LRN], X[0,0], T[33,0])	->	(Type[LRN], X[0,0], T[33,960])	->	(Type[LRN], X[0,0], T[33,1200])	->	(Type[LRN], X[0,0], T[34,480])	->	(Type[LRN], X[12,0], T[34,1440])	->	(Type[LRE], X[16,0], T[35,240])
+Lane	:	59	:	(Type[LRS], X[16,0], T[39,1680])	->	(Type[LRN], X[16,0], T[43,960])	->	(Type[LRN], X[0,0], T[43,1440])	->	(Type[LRN], X[0,0], T[47,1440])	->	(Type[LRN], X[0,0], T[48,0])	->	(Type[LRN], X[16,0], T[48,960])	->	(Type[LRN], X[8,0], T[49,960])	->	(Type[LRN], X[8,0], T[51,160])	->	(Type[LRN], X[-8,0], T[52,0])	->	(Type[LRN], X[0,0], T[52,960])	->	(Type[LRE], X[0,0], T[54,0])
+Lane	:	62	:	(Type[LRS], X[0,0], T[48,0])	->	(Type[LRE], X[0,0], T[48,0])
+Lane	:	63	:	(Type[LRS], X[16,0], T[48,960])	->	(Type[LRE], X[16,0], T[48,960])
+Lane	:	64	:	(Type[LRS], X[-8,0], T[49,0])	->	(Type[LRE], X[-8,0], T[49,0])
+Lane	:	65	:	(Type[LRS], X[8,0], T[49,960])	->	(Type[LRE], X[8,0], T[49,960])
+Lane	:	67	:	(Type[LRS], X[8,0], T[51,0])	->	(Type[LRE], X[8,0], T[51,0])
+Lane	:	68	:	(Type[LRS], X[-8,0], T[52,0])	->	(Type[LRE], X[-8,0], T[52,0])
+Lane	:	69	:	(Type[LRS], X[0,0], T[52,960])	->	(Type[LRE], X[0,0], T[52,960])
+Lane	:	70	:	(Type[LRS], X[0,0], T[53,0])	->	(Type[LRE], X[0,0], T[53,0])
+Lane	:	71	:	(Type[LRS], X[0,0], T[53,960])	->	(Type[LRE], X[0,0], T[53,960])
+Lane	:	72	:	(Type[LRS], X[0,0], T[54,0])	->	(Type[LRE], X[0,0], T[55,0])
+Lane	:	80	:	(Type[LRS], X[18,0], T[56,0])	->	(Type[LRN], X[18,0], T[59,1680])	->	(Type[LRN], X[18,0], T[60,360])	->	(Type[LRN], X[12,0], T[60,480])	->	(Type[LRN], X[18,0], T[60,600])	->	(Type[LRN], X[18,0], T[60,1320])	->	(Type[LRN], X[12,0], T[60,1440])	->	(Type[LRN], X[18,0], T[60,1560])	->	(Type[LRN], X[18,0], T[61,360])	->	(Type[LRN], X[12,0], T[61,480])	->	(Type[LRN], X[18,0], T[61,600])	->	(Type[LRN], X[18,0], T[61,1320])	->	(Type[LRN], X[12,0], T[61,1440])	->	(Type[LRN], X[18,0], T[61,1560])	->	(Type[LRN], X[18,0], T[64,0])	->	(Type[LRN], X[12,0], T[65,360])	->	(Type[LRN], X[12,0], T[70,0])	->	(Type[LRN], X[0,0], T[70,960])	->	(Type[LRE], X[0,0], T[72,0])
+Lane	:	82	:	(Type[LRS], X[-6,0], T[56,0])	->	(Type[LRN], X[-6,0], T[59,240])	->	(Type[LRE], X[18,0], T[59,840])
+Lane	:	86	:	(Type[LRS], X[-6,0], T[62,480])	->	(Type[LRE], X[-6,0], T[63,1560])
+Lane	:	90	:	(Type[LRS], X[24,0], T[80,0])	->	(Type[LRE], X[-24,0], T[82,1200])
+Lane	:	94	:	(Type[LRS], X[24,0], T[82,0])	->	(Type[LRN], X[-6,0], T[84,0])	->	(Type[LRE], X[-6,0], T[85,1680])
+Lane	:	97	:	(Type[LRS], X[18,0], T[84,0])	->	(Type[LRN], X[18,0], T[85,1680])	->	(Type[LRN], X[18,0], T[86,0])	->	(Type[LRN], X[18,0], T[86,8])	->	(Type[LRN], X[0,0], T[86,8])	->	(Type[LRE], X[-6,0], T[87,962])
+Lane	:	102	:	(Type[LRS], X[18,0], T[90,0])	->	(Type[LRN], X[18,0], T[93,1680])	->	(Type[LRN], X[18,0], T[94,360])	->	(Type[LRN], X[12,0], T[94,480])	->	(Type[LRN], X[18,0], T[94,600])	->	(Type[LRN], X[18,0], T[96,480])	->	(Type[LRN], X[12,0], T[97,480])	->	(Type[LRE], X[12,0], T[98,0])
+Lane	:	107	:	(Type[LRS], X[-6,0], T[90,0])	->	(Type[LRN], X[-6,0], T[93,240])	->	(Type[LRE], X[18,0], T[93,720])
+Lane	:	111	:	(Type[LRS], X[-24,0], T[101,960])	->	(Type[LRN], X[12,0], T[102,480])	->	(Type[LRE], X[12,0], T[103,1769])
+Lane	:	114	:	(Type[LRS], X[12,0], T[104,840])	->	(Type[LRE], X[12,0], T[106,240])
+Lane	:	119	:	(Type[LRS], X[12,0], T[108,0])	->	(Type[LRE], X[12,0], T[108,0])
+Lane	:	120	:	(Type[LRS], X[12,0], T[108,720])	->	(Type[LRE], X[12,0], T[108,720])
+Lane	:	121	:	(Type[LRS], X[12,0], T[108,1440])	->	(Type[LRE], X[12,0], T[108,1440])
+Lane	:	122	:	(Type[LRS], X[12,0], T[109,1440])	->	(Type[LRE], X[12,0], T[109,1440])
+Lane	:	123	:	(Type[LRS], X[12,0], T[110,0])	->	(Type[LRE], X[12,0], T[110,0])
+Lane	:	124	:	(Type[LRS], X[12,0], T[110,480])	->	(Type[LRE], X[12,0], T[110,480])
+Lane	:	125	:	(Type[LRS], X[12,0], T[110,960])	->	(Type[LRE], X[12,0], T[110,960])
+Lane	:	126	:	(Type[LRS], X[12,0], T[110,1440])	->	(Type[LRE], X[12,0], T[110,1440])
+Lane	:	127	:	(Type[LRS], X[12,0], T[111,0])	->	(Type[LRE], X[12,0], T[111,0])
+Lane	:	128	:	(Type[LRS], X[12,0], T[111,480])	->	(Type[LRE], X[12,0], T[111,480])
+Lane	:	129	:	(Type[LRS], X[12,0], T[111,960])	->	(Type[LRE], X[12,0], T[111,960])
+Lane	:	130	:	(Type[LRS], X[12,0], T[111,1440])	->	(Type[LRE], X[12,0], T[111,1440])
+Lane	:	131	:	(Type[LRS], X[12,0], T[112,0])	->	(Type[LRE], X[12,0], T[112,0])
+Lane	:	136	:	(Type[LRS], X[18,0], T[113,1680])	->	(Type[LRE], X[18,0], T[117,1560])
+Lane	:	139	:	(Type[LRS], X[-6,0], T[113,1680])	->	(Type[LRE], X[-6,0], T[117,1680])
+Lane	:	140	:	(Type[LRS], X[12,0], T[118,480])	->	(Type[LRE], X[12,0], T[118,480])
+Lane	:	141	:	(Type[LRS], X[6,0], T[118,720])	->	(Type[LRE], X[6,0], T[118,720])
+Lane	:	142	:	(Type[LRS], X[0,0], T[118,960])	->	(Type[LRE], X[0,0], T[118,960])
+Lane	:	143	:	(Type[LRS], X[-6,0], T[118,1200])	->	(Type[LRE], X[-6,0], T[118,1200])
+Lane	:	144	:	(Type[LRS], X[-12,0], T[118,1440])	->	(Type[LRE], X[-12,0], T[118,1440])
+Lane	:	156	:	(Type[LRS], X[9,0], T[120,960])	->	(Type[LRE], X[9,0], T[120,960])
+Lane	:	157	:	(Type[LRS], X[15,0], T[120,1200])	->	(Type[LRE], X[15,0], T[120,1200])
+Lane	:	161	:	(Type[LRS], X[12,0], T[121,480])	->	(Type[LRE], X[12,0], T[121,480])
+Lane	:	164	:	(Type[LRS], X[0,0], T[122,0])	->	(Type[LRE], X[0,0], T[122,720])
+Lane	:	165	:	(Type[LRS], X[12,0], T[121,960])	->	(Type[LRE], X[12,0], T[121,960])
+Lane	:	166	:	(Type[LRS], X[9,0], T[107,1440])	->	(Type[LRE], X[9,0], T[107,1440])
+Lane	:	167	:	(Type[LRS], X[12,0], T[124,0])	->	(Type[LRE], X[12,0], T[124,0])
+Lane	:	170	:	(Type[LRS], X[12,0], T[127,960])	->	(Type[LRE], X[12,0], T[127,960])
+Lane	:	171	:	(Type[LRS], X[12,0], T[128,0])	->	(Type[LRE], X[12,0], T[128,0])
+Lane	:	174	:	(Type[LRS], X[18,0], T[128,1440])	->	(Type[LRE], X[18,0], T[128,1440])
+Lane	:	175	:	(Type[LRS], X[12,0], T[128,1680])	->	(Type[LRE], X[12,0], T[128,1680])
+Lane	:	247	:	(Type[LRS], X[-84,0], T[106,960])	->	(Type[LRN], X[12,0], T[108,0])	->	(Type[LRN], X[12,0], T[108,1800])	->	(Type[LRN], X[12,0], T[109,1080])	->	(Type[LRN], X[12,0], T[109,1440])	->	(Type[LRE], X[12,0], T[112,1560])
+
+Lane	:	6	:	(Type[LLS], X[-12,0], T[98,480])	->	(Type[LLN], X[-18,0], T[99,960])	->	(Type[LLN], X[-18,0], T[100,0])	->	(Type[LLN], X[-24,0], T[100,480])	->	(Type[LLE], X[-12,0], T[100,960])
+Lane	:	8	:	(Type[LLS], X[0,0], T[98,480])	->	(Type[LLN], X[6,0], T[99,960])	->	(Type[LLN], X[6,0], T[100,0])	->	(Type[LLN], X[-24,0], T[100,480])	->	(Type[LLE], X[-12,0], T[100,960])
+Lane	:	21	:	(Type[LLS], X[-12,0], T[6,0])	->	(Type[LLE], X[-12,0], T[6,0])
+Lane	:	22	:	(Type[LLS], X[-12,0], T[6,480])	->	(Type[LLE], X[-12,0], T[6,480])
+Lane	:	31	:	(Type[LLS], X[-12,0], T[7,720])	->	(Type[LLE], X[-12,0], T[7,720])
+Lane	:	32	:	(Type[LLS], X[-12,0], T[6,1200])	->	(Type[LLE], X[-12,0], T[6,1200])
+Lane	:	33	:	(Type[LLS], X[-12,0], T[6,960])	->	(Type[LLE], X[-12,0], T[6,960])
+Lane	:	34	:	(Type[LLS], X[-12,0], T[4,0])	->	(Type[LLE], X[-12,0], T[4,0])
+Lane	:	36	:	(Type[LLS], X[-18,0], T[9,1680])	->	(Type[LLN], X[-18,0], T[10,480])	->	(Type[LLN], X[-18,0], T[11,1440])	->	(Type[LLN], X[-6,0], T[12,0])	->	(Type[LLN], X[-6,0], T[13,1560])	->	(Type[LLN], X[-18,0], T[13,1800])	->	(Type[LLN], X[-6,0], T[14,480])	->	(Type[LLN], X[-6,0], T[17,1680])	->	(Type[LLN], X[-18,0], T[18,0])	->	(Type[LLN], X[-18,0], T[18,1680])	->	(Type[LLN], X[-18,0], T[19,240])	->	(Type[LLN], X[-6,0], T[19,1440])	->	(Type[LLN], X[-6,0], T[20,0])	->	(Type[LLN], X[6,0], T[20,480])	->	(Type[LLN], X[6,0], T[21,0])	->	(Type[LLN], X[-18,0], T[21,480])	->	(Type[LLN], X[-18,0], T[22,1680])	->	(Type[LLN], X[6,0], T[23,240])	->	(Type[LLE], X[6,0], T[23,1200])
+Lane	:	38	:	(Type[LLS], X[6,0], T[21,1440])	->	(Type[LLN], X[6,0], T[22,1680])	->	(Type[LLN], X[-18,0], T[23,240])	->	(Type[LLE], X[-18,0], T[23,480])
+Lane	:	42	:	(Type[LLS], X[-18,0], T[24,720])	->	(Type[LLE], X[12,0], T[24,1440])
+Lane	:	44	:	(Type[LLS], X[-18,0], T[25,240])	->	(Type[LLE], X[0,0], T[25,960])
+Lane	:	46	:	(Type[LLS], X[-12,0], T[25,1440])	->	(Type[LLN], X[6,0], T[26,0])	->	(Type[LLN], X[6,0], T[27,240])	->	(Type[LLN], X[-6,0], T[27,720])	->	(Type[LLN], X[-6,0], T[28,0])	->	(Type[LLN], X[6,0], T[28,480])	->	(Type[LLN], X[6,0], T[30,720])	->	(Type[LLE], X[-6,0], T[30,1440])
+Lane	:	50	:	(Type[LLS], X[-6,0], T[30,1440])	->	(Type[LLN], X[-12,0], T[31,0])	->	(Type[LLN], X[-12,0], T[31,240])	->	(Type[LLN], X[-12,0], T[31,1680])	->	(Type[LLN], X[0,0], T[32,120])	->	(Type[LLN], X[0,0], T[32,960])	->	(Type[LLN], X[-12,0], T[33,0])	->	(Type[LLE], X[-12,0], T[33,1200])
+Lane	:	52	:	(Type[LLS], X[-12,0], T[33,1200])	->	(Type[LLN], X[-12,0], T[34,480])	->	(Type[LLN], X[0,0], T[34,1440])	->	(Type[LLE], X[0,0], T[35,240])
+Lane	:	55	:	(Type[LLS], X[0,0], T[35,240])	->	(Type[LLN], X[-16,0], T[35,1440])	->	(Type[LLN], X[-16,0], T[36,240])	->	(Type[LLN], X[-8,0], T[36,1200])	->	(Type[LLN], X[-16,0], T[38,0])	->	(Type[LLE], X[-16,0], T[39,1200])
+Lane	:	60	:	(Type[LLS], X[0,0], T[39,1680])	->	(Type[LLN], X[0,0], T[43,960])	->	(Type[LLN], X[-16,0], T[43,1440])	->	(Type[LLE], X[-16,0], T[47,1440])
+Lane	:	79	:	(Type[LLS], X[6,0], T[56,0])	->	(Type[LLE], X[6,0], T[59,1680])
+Lane	:	81	:	(Type[LLS], X[-18,0], T[56,0])	->	(Type[LLN], X[-18,0], T[59,240])	->	(Type[LLE], X[6,0], T[59,840])
+Lane	:	84	:	(Type[LLS], X[-18,0], T[62,480])	->	(Type[LLE], X[-18,0], T[63,1560])
+Lane	:	87	:	(Type[LLS], X[6,0], T[62,480])	->	(Type[LLN], X[6,0], T[64,0])	->	(Type[LLN], X[-12,0], T[65,360])	->	(Type[LLE], X[-12,0], T[67,1680])
+Lane	:	91	:	(Type[LLS], X[0,0], T[80,0])	->	(Type[LLE], X[-24,0], T[81,1680])
+Lane	:	92	:	(Type[LLS], X[0,0], T[82,0])	->	(Type[LLN], X[-18,0], T[84,0])	->	(Type[LLE], X[-18,0], T[85,1680])
+Lane	:	95	:	(Type[LLS], X[6,0], T[84,0])	->	(Type[LLE], X[6,0], T[85,1680])
+Lane	:	104	:	(Type[LLS], X[6,0], T[90,0])	->	(Type[LLE], X[6,0], T[93,1080])
+Lane	:	105	:	(Type[LLS], X[-18,0], T[90,0])	->	(Type[LLN], X[-18,0], T[93,240])	->	(Type[LLE], X[6,0], T[93,720])
+Lane	:	110	:	(Type[LLS], X[-24,0], T[101,960])	->	(Type[LLN], X[-12,0], T[102,480])	->	(Type[LLE], X[-12,0], T[104,135])
+Lane	:	112	:	(Type[LLS], X[-12,0], T[104,480])	->	(Type[LLE], X[-12,0], T[106,240])
+Lane	:	134	:	(Type[LLS], X[6,0], T[113,1680])	->	(Type[LLE], X[6,0], T[117,1800])
+Lane	:	137	:	(Type[LLS], X[-18,0], T[113,1680])	->	(Type[LLE], X[-18,0], T[117,1440])
+Lane	:	147	:	(Type[LLS], X[-12,0], T[119,480])	->	(Type[LLE], X[-12,0], T[119,480])
+Lane	:	148	:	(Type[LLS], X[-6,0], T[119,720])	->	(Type[LLE], X[-6,0], T[119,720])
+Lane	:	149	:	(Type[LLS], X[0,0], T[119,960])	->	(Type[LLE], X[0,0], T[119,960])
+Lane	:	150	:	(Type[LLS], X[6,0], T[119,1200])	->	(Type[LLE], X[6,0], T[119,1200])
+Lane	:	151	:	(Type[LLS], X[12,0], T[119,1440])	->	(Type[LLE], X[12,0], T[119,1440])
+Lane	:	154	:	(Type[LLS], X[-9,0], T[120,0])	->	(Type[LLE], X[-9,0], T[120,0])
+Lane	:	155	:	(Type[LLS], X[-15,0], T[120,240])	->	(Type[LLE], X[-15,0], T[120,240])
+Lane	:	160	:	(Type[LLS], X[-12,0], T[121,240])	->	(Type[LLE], X[-12,0], T[121,240])
+Lane	:	163	:	(Type[LLS], X[-15,0], T[121,1200])	->	(Type[LLE], X[-15,0], T[121,1200])
+Lane	:	168	:	(Type[LLS], X[-12,0], T[126,0])	->	(Type[LLE], X[-12,0], T[126,0])
+Lane	:	173	:	(Type[LLS], X[-12,0], T[128,960])	->	(Type[LLE], X[-12,0], T[128,960])
+Lane	:	178	:	(Type[LLS], X[-12,0], T[129,1200])	->	(Type[LLE], X[-12,0], T[129,1200])
+Lane	:	179	:	(Type[LLS], X[-18,0], T[129,1440])	->	(Type[LLE], X[-18,0], T[129,1440])
+Lane	:	235	:	(Type[LLS], X[6,0], T[95,0])	->	(Type[LLN], X[6,0], T[95,360])	->	(Type[LLN], X[0,0], T[95,480])	->	(Type[LLN], X[6,0], T[95,600])	->	(Type[LLN], X[6,0], T[96,480])	->	(Type[LLN], X[-12,0], T[97,480])	->	(Type[LLE], X[-12,0], T[98,0])
+
+Lane	:	61	:	(Type[WLS], X[-24,0], T[39,1680])	->	(Type[WLN], X[-24,0], T[53,1680])	->	(Type[WLN], X[-4,0], T[54,0])	->	(Type[WLN], X[-24,0], T[55,0])	->	(Type[WLN], X[-24,0], T[59,1200])	->	(Type[WLN], X[0,0], T[59,1680])	->	(Type[WLN], X[0,0], T[60,240])	->	(Type[WLN], X[-24,0], T[60,480])	->	(Type[WLN], X[-24,0], T[60,720])	->	(Type[WLN], X[0,0], T[60,720])	->	(Type[WLN], X[0,0], T[60,1200])	->	(Type[WLN], X[-24,0], T[60,1440])	->	(Type[WLN], X[-24,0], T[60,1680])	->	(Type[WLN], X[0,0], T[60,1680])	->	(Type[WLN], X[0,0], T[61,240])	->	(Type[WLN], X[-24,0], T[61,480])	->	(Type[WLN], X[-24,0], T[61,720])	->	(Type[WLN], X[0,0], T[61,720])	->	(Type[WLN], X[0,0], T[61,1200])	->	(Type[WLN], X[-24,0], T[61,1440])	->	(Type[WLN], X[-24,0], T[61,1680])	->	(Type[WLN], X[0,0], T[61,1680])	->	(Type[WLN], X[0,0], T[62,0])	->	(Type[WLN], X[-24,0], T[62,480])	->	(Type[WLN], X[-24,0], T[64,240])	->	(Type[WLN], X[-6,0], T[64,240])	->	(Type[WLN], X[-24,0], T[65,360])	->	(Type[WLN], X[-24,0], T[70,960])	->	(Type[WLN], X[-6,0], T[71,720])	->	(Type[WLE], X[-6,0], T[72,0])
+Lane	:	108	:	(Type[WLS], X[-102,0], T[89,240])	->	(Type[WLN], X[-24,0], T[90,0])	->	(Type[WLN], X[-24,0], T[93,960])	->	(Type[WLN], X[0,0], T[93,1440])	->	(Type[WLN], X[0,0], T[94,240])	->	(Type[WLN], X[-24,0], T[94,480])	->	(Type[WLN], X[-24,0], T[94,720])	->	(Type[WLN], X[0,0], T[94,720])	->	(Type[WLN], X[0,0], T[94,1200])	->	(Type[WLN], X[-24,0], T[94,1440])	->	(Type[WLN], X[-24,0], T[94,1680])	->	(Type[WLN], X[0,0], T[94,1680])	->	(Type[WLN], X[0,0], T[95,240])	->	(Type[WLN], X[-24,0], T[95,480])	->	(Type[WLN], X[-24,0], T[95,720])	->	(Type[WLN], X[0,0], T[95,720])	->	(Type[WLN], X[0,0], T[95,1200])	->	(Type[WLN], X[-24,0], T[95,1440])	->	(Type[WLN], X[-24,0], T[95,1680])	->	(Type[WLN], X[0,0], T[95,1680])	->	(Type[WLN], X[0,0], T[96,480])	->	(Type[WLN], X[-24,0], T[97,480])	->	(Type[WLN], X[-24,0], T[98,480])	->	(Type[WLN], X[-24,0], T[100,1440])	->	(Type[WLN], X[-24,0], T[101,600])	->	(Type[WLE], X[-24,0], T[106,240])
+Lane	:	117	:	(Type[WLS], X[-24,0], T[108,120])	->	(Type[WLE], X[-24,0], T[112,1560])
+Lane	:	132	:	(Type[WLS], X[-24,0], T[113,1680])	->	(Type[WLE], X[-24,0], T[122,1320])
+Lane	:	180	:	(Type[WLS], X[-120,0], T[0,0])	->	(Type[WLN], X[-24,0], T[7,1800])	->	(Type[WLE], X[-24,0], T[13,840])
+Lane	:	182	:	(Type[WLS], X[-24,0], T[15,840])	->	(Type[WLN], X[-24,0], T[15,1320])	->	(Type[WLN], X[12,0], T[16,120])	->	(Type[WLN], X[12,0], T[17,0])	->	(Type[WLN], X[-24,0], T[18,0])	->	(Type[WLN], X[-24,0], T[18,1560])	->	(Type[WLN], X[-24,0], T[19,480])	->	(Type[WLN], X[-24,0], T[20,0])	->	(Type[WLN], X[-12,0], T[20,480])	->	(Type[WLN], X[-12,0], T[20,1680])	->	(Type[WLN], X[-24,0], T[21,0])	->	(Type[WLE], X[-24,0], T[21,720])
+Lane	:	185	:	(Type[WLS], X[-24,0], T[24,0])	->	(Type[WLN], X[-24,0], T[24,720])	->	(Type[WLN], X[6,0], T[24,1440])	->	(Type[WLN], X[-24,0], T[25,240])	->	(Type[WLN], X[-6,0], T[25,960])	->	(Type[WLN], X[-24,0], T[25,1440])	->	(Type[WLN], X[0,0], T[26,0])	->	(Type[WLN], X[0,0], T[27,0])	->	(Type[WLN], X[0,0], T[27,120])	->	(Type[WLN], X[-12,0], T[27,720])	->	(Type[WLN], X[-12,0], T[28,0])	->	(Type[WLN], X[0,0], T[28,480])	->	(Type[WLN], X[0,0], T[29,1680])	->	(Type[WLN], X[0,0], T[30,600])	->	(Type[WLE], X[-24,0], T[31,0])
+Lane	:	187	:	(Type[WLS], X[-18,0], T[34,960])	->	(Type[WLN], X[-12,0], T[34,1440])	->	(Type[WLN], X[-12,0], T[35,240])	->	(Type[WLN], X[-24,0], T[35,1440])	->	(Type[WLN], X[-24,0], T[36,240])	->	(Type[WLN], X[-16,0], T[36,1200])	->	(Type[WLN], X[-24,0], T[38,0])	->	(Type[WLN], X[-24,0], T[38,480])	->	(Type[WLN], X[-8,0], T[38,960])	->	(Type[WLN], X[-8,0], T[38,1560])	->	(Type[WLN], X[-24,0], T[38,1560])	->	(Type[WLN], X[-24,0], T[39,360])	->	(Type[WLN], X[8,0], T[39,360])	->	(Type[WLN], X[8,0], T[39,600])	->	(Type[WLN], X[-24,0], T[39,600])	->	(Type[WLE], X[-24,0], T[39,1680])
+Lane	:	237	:	(Type[WLS], X[-102,0], T[85,1680])	->	(Type[WLN], X[-30,0], T[88,0])	->	(Type[WLE], X[-30,0], T[88,1800])
+Lane	:	239	:	(Type[WLS], X[-24,0], T[32,0])	->	(Type[WLN], X[-24,0], T[32,360])	->	(Type[WLN], X[-6,0], T[32,960])	->	(Type[WLN], X[-18,0], T[33,0])	->	(Type[WLE], X[-18,0], T[34,960])
+
+Lane	:	4	:	(Type[LCS], X[-6,0], T[98,480])	->	(Type[LCN], X[-12,0], T[99,960])	->	(Type[LCN], X[-12,0], T[100,0])	->	(Type[LCN], X[-18,0], T[100,480])	->	(Type[LCE], X[-6,0], T[100,960])
+Lane	:	5	:	(Type[LCS], X[6,0], T[98,480])	->	(Type[LCN], X[12,0], T[99,960])	->	(Type[LCN], X[12,0], T[100,0])	->	(Type[LCN], X[-18,0], T[100,480])	->	(Type[LCE], X[-6,0], T[100,960])
+Lane	:	20	:	(Type[LCS], X[0,0], T[5,1440])	->	(Type[LCE], X[0,0], T[5,1440])
+Lane	:	23	:	(Type[LCS], X[0,0], T[6,960])	->	(Type[LCE], X[0,0], T[6,960])
+Lane	:	24	:	(Type[LCS], X[0,0], T[6,1200])	->	(Type[LCE], X[0,0], T[6,1200])
+Lane	:	27	:	(Type[LCS], X[0,0], T[7,1440])	->	(Type[LCE], X[0,0], T[7,1440])
+Lane	:	28	:	(Type[LCS], X[0,0], T[7,1200])	->	(Type[LCE], X[0,0], T[7,1200])
+Lane	:	30	:	(Type[LCS], X[0,0], T[7,240])	->	(Type[LCE], X[0,0], T[7,240])
+Lane	:	37	:	(Type[LCS], X[0,0], T[12,0])	->	(Type[LCN], X[0,0], T[13,1560])	->	(Type[LCN], X[-12,0], T[13,1800])	->	(Type[LCN], X[0,0], T[14,480])	->	(Type[LCN], X[0,0], T[18,1680])	->	(Type[LCN], X[0,0], T[19,1440])	->	(Type[LCN], X[0,0], T[20,0])	->	(Type[LCN], X[12,0], T[20,480])	->	(Type[LCN], X[12,0], T[21,0])	->	(Type[LCN], X[-12,0], T[21,480])	->	(Type[LCN], X[-12,0], T[22,1680])	->	(Type[LCN], X[12,0], T[23,240])	->	(Type[LCE], X[12,0], T[23,960])
+Lane	:	39	:	(Type[LCS], X[12,0], T[21,1440])	->	(Type[LCN], X[12,0], T[22,1680])	->	(Type[LCN], X[-12,0], T[23,240])	->	(Type[LCE], X[-12,0], T[23,960])
+Lane	:	49	:	(Type[LCS], X[6,0], T[30,1440])	->	(Type[LCN], X[0,0], T[31,0])	->	(Type[LCN], X[0,0], T[31,1680])	->	(Type[LCE], X[6,0], T[32,0])
+Lane	:	51	:	(Type[LCS], X[6,0], T[32,0])	->	(Type[LCN], X[6,0], T[32,960])	->	(Type[LCN], X[-6,0], T[33,0])	->	(Type[LCN], X[-6,0], T[33,960])	->	(Type[LCE], X[-6,0], T[33,1200])
+Lane	:	54	:	(Type[LCS], X[8,0], T[35,240])	->	(Type[LCN], X[-8,0], T[35,1440])	->	(Type[LCN], X[-8,0], T[36,240])	->	(Type[LCN], X[0,0], T[36,1200])	->	(Type[LCE], X[0,0], T[39,1200])
+Lane	:	57	:	(Type[LCS], X[-6,0], T[33,1200])	->	(Type[LCN], X[-6,0], T[34,480])	->	(Type[LCN], X[6,0], T[34,1440])	->	(Type[LCE], X[8,0], T[35,240])
+Lane	:	58	:	(Type[LCS], X[8,0], T[39,1680])	->	(Type[LCN], X[8,0], T[43,960])	->	(Type[LCN], X[-8,0], T[43,1440])	->	(Type[LCE], X[-8,0], T[47,1440])
+Lane	:	78	:	(Type[LCS], X[12,0], T[56,0])	->	(Type[LCE], X[12,0], T[59,1680])
+Lane	:	83	:	(Type[LCS], X[-12,0], T[56,0])	->	(Type[LCN], X[-12,0], T[59,240])	->	(Type[LCE], X[12,0], T[59,840])
+Lane	:	85	:	(Type[LCS], X[-12,0], T[62,480])	->	(Type[LCE], X[-12,0], T[63,1560])
+Lane	:	88	:	(Type[LCS], X[12,0], T[62,480])	->	(Type[LCN], X[12,0], T[64,0])	->	(Type[LCN], X[0,0], T[65,360])	->	(Type[LCE], X[0,0], T[68,240])
+Lane	:	89	:	(Type[LCS], X[12,0], T[80,0])	->	(Type[LCE], X[-24,0], T[82,480])
+Lane	:	93	:	(Type[LCS], X[12,0], T[82,0])	->	(Type[LCN], X[-12,0], T[84,0])	->	(Type[LCE], X[-12,0], T[85,1680])
+Lane	:	96	:	(Type[LCS], X[12,0], T[84,0])	->	(Type[LCE], X[12,0], T[85,1680])
+Lane	:	103	:	(Type[LCS], X[12,0], T[90,0])	->	(Type[LCE], X[12,0], T[93,1200])
+Lane	:	106	:	(Type[LCS], X[-12,0], T[90,0])	->	(Type[LCN], X[-12,0], T[93,240])	->	(Type[LCE], X[12,0], T[93,720])
+Lane	:	109	:	(Type[LCS], X[-24,0], T[101,960])	->	(Type[LCN], X[0,0], T[102,480])	->	(Type[LCE], X[0,0], T[103,1871])
+Lane	:	113	:	(Type[LCS], X[0,0], T[104,696])	->	(Type[LCE], X[0,0], T[106,240])
+Lane	:	135	:	(Type[LCS], X[12,0], T[113,1680])	->	(Type[LCE], X[12,0], T[117,1680])
+Lane	:	138	:	(Type[LCS], X[-12,0], T[113,1680])	->	(Type[LCE], X[-12,0], T[117,1560])
+Lane	:	145	:	(Type[LCS], X[0,0], T[119,0])	->	(Type[LCE], X[0,0], T[119,0])
+Lane	:	146	:	(Type[LCS], X[0,0], T[118,0])	->	(Type[LCE], X[0,0], T[118,0])
+Lane	:	152	:	(Type[LCS], X[-6,0], T[120,480])	->	(Type[LCE], X[-6,0], T[120,480])
+Lane	:	153	:	(Type[LCS], X[6,0], T[120,720])	->	(Type[LCE], X[6,0], T[120,720])
+Lane	:	158	:	(Type[LCS], X[6,0], T[120,1440])	->	(Type[LCE], X[6,0], T[120,1440])
+Lane	:	159	:	(Type[LCS], X[0,0], T[120,1680])	->	(Type[LCE], X[0,0], T[120,1680])
+Lane	:	162	:	(Type[LCS], X[0,0], T[121,720])	->	(Type[LCE], X[0,0], T[121,720])
+Lane	:	169	:	(Type[LCS], X[0,0], T[127,0])	->	(Type[LCE], X[0,0], T[127,0])
+Lane	:	172	:	(Type[LCS], X[0,0], T[128,480])	->	(Type[LCE], X[0,0], T[128,480])
+Lane	:	176	:	(Type[LCS], X[0,0], T[129,240])	->	(Type[LCE], X[0,0], T[129,240])
+Lane	:	177	:	(Type[LCS], X[0,0], T[129,720])	->	(Type[LCE], X[0,0], T[129,720])
+Lane	:	236	:	(Type[LCS], X[12,0], T[94,960])	->	(Type[LCN], X[12,0], T[94,1320])	->	(Type[LCN], X[6,0], T[94,1440])	->	(Type[LCN], X[12,0], T[94,1560])	->	(Type[LCN], X[12,0], T[96,480])	->	(Type[LCN], X[0,0], T[97,480])	->	(Type[LCE], X[0,0], T[98,0])
+
+Lane	:	0	:	(Type[WRS], X[24,0], T[39,1800])	->	(Type[WRE], X[24,0], T[48,480])
+Lane	:	2	:	(Type[WRS], X[24,0], T[59,480])	->	(Type[WRN], X[24,0], T[62,0])	->	(Type[WRN], X[24,0], T[65,360])	->	(Type[WRN], X[24,0], T[70,960])	->	(Type[WRN], X[6,0], T[71,720])	->	(Type[WRE], X[6,0], T[72,0])
+Lane	:	3	:	(Type[WRS], X[102,0], T[89,240])	->	(Type[WRN], X[24,0], T[90,0])	->	(Type[WRN], X[24,0], T[96,480])	->	(Type[WRN], X[24,0], T[98,480])	->	(Type[WRN], X[24,0], T[100,1200])	->	(Type[WRN], X[24,0], T[101,720])	->	(Type[WRN], X[-12,0], T[101,960])	->	(Type[WRN], X[24,0], T[102,480])	->	(Type[WRN], X[24,0], T[103,1680])	->	(Type[WRN], X[24,0], T[104,960])	->	(Type[WRE], X[24,0], T[106,240])
+Lane	:	98	:	(Type[WRS], X[24,0], T[88,0])	->	(Type[WRE], X[24,0], T[88,0])
+Lane	:	99	:	(Type[WRS], X[18,0], T[88,480])	->	(Type[WRE], X[18,0], T[88,480])
+Lane	:	100	:	(Type[WRS], X[24,0], T[88,960])	->	(Type[WRE], X[24,0], T[88,960])
+Lane	:	101	:	(Type[WRS], X[18,0], T[88,1440])	->	(Type[WRE], X[18,0], T[88,1440])
+Lane	:	116	:	(Type[WRS], X[24,0], T[108,120])	->	(Type[WRE], X[24,0], T[112,1560])
+Lane	:	133	:	(Type[WRS], X[24,0], T[113,1680])	->	(Type[WRE], X[24,0], T[122,1320])
+Lane	:	181	:	(Type[WRS], X[120,0], T[0,0])	->	(Type[WRN], X[24,0], T[7,1800])	->	(Type[WRE], X[24,0], T[13,840])
+Lane	:	183	:	(Type[WRS], X[24,0], T[15,960])	->	(Type[WRN], X[24,0], T[17,960])	->	(Type[WRN], X[-12,0], T[18,120])	->	(Type[WRN], X[-12,0], T[18,1560])	->	(Type[WRN], X[-12,0], T[19,120])	->	(Type[WRN], X[24,0], T[19,1800])	->	(Type[WRN], X[24,0], T[21,0])	->	(Type[WRN], X[6,0], T[21,480])	->	(Type[WRN], X[6,0], T[21,960])	->	(Type[WRN], X[24,0], T[21,1320])	->	(Type[WRE], X[24,0], T[21,1680])
+Lane	:	184	:	(Type[WRS], X[24,0], T[24,0])	->	(Type[WRN], X[0,0], T[24,720])	->	(Type[WRN], X[24,0], T[24,1440])	->	(Type[WRN], X[0,0], T[25,240])	->	(Type[WRN], X[24,0], T[25,960])	->	(Type[WRN], X[12,0], T[25,1440])	->	(Type[WRE], X[24,0], T[26,0])
+Lane	:	186	:	(Type[WRS], X[24,0], T[27,240])	->	(Type[WRN], X[12,0], T[27,720])	->	(Type[WRN], X[12,0], T[28,0])	->	(Type[WRE], X[24,0], T[28,480])
+Lane	:	188	:	(Type[WRS], X[24,0], T[35,240])	->	(Type[WRN], X[8,0], T[35,1440])	->	(Type[WRN], X[8,0], T[36,240])	->	(Type[WRN], X[16,0], T[36,1200])	->	(Type[WRN], X[24,0], T[38,0])	->	(Type[WRN], X[24,0], T[38,480])	->	(Type[WRN], X[8,0], T[38,960])	->	(Type[WRN], X[8,0], T[38,1800])	->	(Type[WRN], X[-8,0], T[38,1800])	->	(Type[WRN], X[-8,0], T[39,120])	->	(Type[WRN], X[24,0], T[39,120])	->	(Type[WRN], X[24,0], T[39,840])	->	(Type[WRN], X[-8,0], T[39,840])	->	(Type[WRN], X[-8,0], T[39,1080])	->	(Type[WRN], X[24,0], T[39,1080])	->	(Type[WRE], X[24,0], T[39,1800])
+Lane	:	189	:	(Type[WRS], X[24,0], T[53,1680])	->	(Type[WRN], X[4,0], T[54,0])	->	(Type[WRE], X[24,0], T[55,0])
+Lane	:	238	:	(Type[WRS], X[102,0], T[85,1680])	->	(Type[WRN], X[30,0], T[88,0])	->	(Type[WRE], X[30,0], T[88,1800])
+Lane	:	240	:	(Type[WRS], X[24,0], T[32,960])	->	(Type[WRN], X[12,0], T[33,0])	->	(Type[WRN], X[12,0], T[34,960])	->	(Type[WRN], X[24,0], T[34,1440])	->	(Type[WRE], X[24,0], T[35,240])
+
+
+Bell	:		:	X[12,0], T[2,0]
+Bell	:		:	X[12,0], T[2,480]
+Bell	:		:	X[12,0], T[2,960]
+Bell	:		:	X[12,0], T[2,1440]
+Bell	:		:	X[6,0], T[3,0]
+Bell	:		:	X[0,0], T[3,480]
+Bell	:		:	X[-6,0], T[3,960]
+Bell	:		:	X[-12,0], T[3,1440]
+Bell	:		:	X[-12,0], T[4,0]
+Bell	:		:	X[-12,0], T[4,480]
+Bell	:		:	X[0,0], T[4,960]
+Bell	:		:	X[12,0], T[4,1440]
+Bell	:		:	X[12,0], T[5,0]
+Bell	:		:	X[12,0], T[5,480]
+Bell	:		:	X[12,0], T[5,960]
+Bell	:		:	X[0,0], T[5,1440]
+Bell	:		:	X[-12,0], T[6,0]
+Bell	:		:	X[0,0], T[48,0]
+Bell	:		:	X[16,0], T[48,960]
+Bell	:		:	X[-8,0], T[49,0]
+Bell	:		:	X[8,0], T[49,960]
+Bell	:		:	X[8,0], T[50,0]
+Bell	:		:	X[8,0], T[51,0]
+Bell	:		:	X[-8,0], T[52,0]
+Bell	:		:	X[0,0], T[52,960]
+Bell	:		:	X[0,0], T[53,0]
+Bell	:		:	X[0,0], T[53,960]
+Bell	:		:	X[0,0], T[54,0]
+Bell	:		:	X[18,0], T[86,0]
+Bell	:		:	X[-3,0], T[86,960]
+Bell	:		:	X[23,0], T[87,0]
+Bell	:		:	X[-13,0], T[87,960]
+Bell	:		:	X[-18,0], T[88,0]
+Bell	:		:	X[6,0], T[88,480]
+Bell	:		:	X[-12,0], T[88,960]
+Bell	:		:	X[12,0], T[88,1440]
+Bell	:		:	X[12,0], T[97,480]
+Bell	:		:	X[12,0], T[97,600]
+Bell	:		:	X[12,0], T[97,720]
+Bell	:		:	X[12,0], T[101,480]
+Bell	:		:	X[0,2503], T[101,540]
+Bell	:		:	X[-7,1070], T[101,600]
+Bell	:		:	X[-12,0], T[101,660]
+Bell	:		:	X[-16,369], T[101,720]
+Bell	:		:	X[-19,497], T[101,780]
+Bell	:		:	X[-22,3604], T[101,840]
+Bell	:		:	X[-23,863], T[101,900]
+Bell	:		:	X[-24,1], T[101,960]
+Bell	:		:	X[12,0], T[124,0]
+Bell	:		:	X[12,0], T[124,480]
+Bell	:		:	X[6,0], T[124,960]
+Bell	:		:	X[0,0], T[124,1440]
+Bell	:		:	X[-6,0], T[125,0]
+Bell	:		:	X[-12,0], T[125,480]
+Bell	:		:	X[-12,0], T[125,960]
+Bell	:		:	X[-12,0], T[125,1440]
+Bell	:		:	X[-12,0], T[126,0]
+Bell	:		:	X[-12,0], T[126,480]
+Bell	:		:	X[-6,0], T[126,960]
+Bell	:		:	X[0,0], T[126,1440]
+Bell	:		:	X[0,0], T[127,0]
+Bell	:		:	X[6,0], T[127,480]
+Bell	:		:	X[12,0], T[127,960]
+Bell	:		:	X[12,0], T[127,1440]
+Bell	:		:	X[12,0], T[128,0]
+Bell	:		:	X[0,0], T[128,480]
+Bell	:		:	X[-12,0], T[128,960]
+
+Bullet	:	A5	:	X[-24,0], T[8,0], D[Normal]
+Bullet	:	A4	:	X[-18,0], T[8,120], D[Normal]
+Bullet	:	A3	:	X[-12,0], T[8,240], D[Normal]
+Bullet	:	A2	:	X[-6,0], T[8,360], D[Normal]
+Bullet	:	A1	:	X[0,0], T[8,480], D[Normal]
+Bullet	:	AA	:	X[24,0], T[10,0], D[Normal]
+Bullet	:	A9	:	X[18,0], T[10,120], D[Normal]
+Bullet	:	A8	:	X[12,0], T[10,240], D[Normal]
+Bullet	:	A7	:	X[6,0], T[10,360], D[Normal]
+Bullet	:	A6	:	X[0,0], T[10,480], D[Normal]
+Bullet	:	AB	:	X[24,0], T[12,0], D[Normal]
+Bullet	:	AB	:	X[-24,0], T[12,0], D[Normal]
+Bullet	:	AC	:	X[21,0], T[12,120], D[Normal]
+Bullet	:	AC	:	X[-21,0], T[12,120], D[Normal]
+Bullet	:	AD	:	X[18,0], T[12,240], D[Normal]
+Bullet	:	AD	:	X[-18,0], T[12,240], D[Normal]
+Bullet	:	AE	:	X[-15,0], T[12,360], D[Normal]
+Bullet	:	AE	:	X[15,0], T[12,360], D[Normal]
+Bullet	:	AF	:	X[-12,0], T[12,480], D[Normal]
+Bullet	:	AF	:	X[12,0], T[12,480], D[Normal]
+Bullet	:	AB	:	X[-24,0], T[14,0], D[Normal]
+Bullet	:	AB	:	X[12,0], T[14,0], D[Normal]
+Bullet	:	AC	:	X[-21,0], T[14,120], D[Normal]
+Bullet	:	AC	:	X[15,0], T[14,120], D[Normal]
+Bullet	:	AD	:	X[-18,0], T[14,240], D[Normal]
+Bullet	:	AD	:	X[18,0], T[14,240], D[Normal]
+Bullet	:	AE	:	X[-15,0], T[14,360], D[Normal]
+Bullet	:	AE	:	X[21,0], T[14,360], D[Normal]
+Bullet	:	AF	:	X[-12,0], T[14,480], D[Normal]
+Bullet	:	AF	:	X[24,0], T[14,480], D[Normal]
+Bullet	:	B9	:	X[3,0], T[16,0], D[Normal]
+Bullet	:	BA	:	X[6,0], T[16,120], D[Normal]
+Bullet	:	BB	:	X[9,0], T[16,240], D[Normal]
+Bullet	:	BC	:	X[27,0], T[16,360], D[Normal]
+Bullet	:	BD	:	X[30,0], T[16,480], D[Normal]
+Bullet	:	B9	:	X[-3,0], T[18,0], D[Normal]
+Bullet	:	BA	:	X[-6,0], T[18,120], D[Normal]
+Bullet	:	BB	:	X[-9,0], T[18,240], D[Normal]
+Bullet	:	BC	:	X[-27,0], T[18,360], D[Normal]
+Bullet	:	BD	:	X[-30,0], T[18,480], D[Normal]
+Bullet	:	A0	:	X[-8,0], T[24,0], D[Normal]
+Bullet	:	A0	:	X[-12,0], T[24,0], D[Normal]
+Bullet	:	A0	:	X[24,0], T[26,0], D[Normal]
+Bullet	:	A0	:	X[0,0], T[26,0], D[Normal]
+Bullet	:	A0	:	X[-7.776173,0], T[28,6], D[Normal]
+Bullet	:	A0	:	X[-3.7761734,0], T[28,6], D[Normal]
+Bullet	:	A0	:	X[4.498195,0], T[29,1916], D[Normal]
+Bullet	:	A0	:	X[8.498195,0], T[29,1916], D[Normal]
+Bullet	:	A0	:	X[-12,0], T[40,480], D[Normal]
+Bullet	:	A0	:	X[-6,0], T[40,480], D[Normal]
+Bullet	:	A0	:	X[-18,0], T[40,480], D[Normal]
+Bullet	:	A0	:	X[-12,0], T[40,720], D[Normal]
+Bullet	:	A0	:	X[-6,0], T[40,720], D[Normal]
+Bullet	:	A0	:	X[-18,0], T[40,720], D[Normal]
+Bullet	:	A0	:	X[-6,0], T[40,1440], D[Normal]
+Bullet	:	A0	:	X[-12,0], T[40,1440], D[Normal]
+Bullet	:	A0	:	X[-18,0], T[40,1440], D[Normal]
+Bullet	:	A0	:	X[-18,0], T[41,480], D[Normal]
+Bullet	:	A0	:	X[-6,0], T[41,480], D[Normal]
+Bullet	:	A0	:	X[-12,0], T[41,480], D[Normal]
+Bullet	:	A0	:	X[-18,0], T[41,720], D[Normal]
+Bullet	:	A0	:	X[-6,0], T[41,720], D[Normal]
+Bullet	:	A0	:	X[-12,0], T[41,720], D[Normal]
+Bullet	:	A0	:	X[-18,0], T[41,1440], D[Normal]
+Bullet	:	A0	:	X[-12,0], T[41,1440], D[Normal]
+Bullet	:	A0	:	X[-6,0], T[41,1440], D[Normal]
+Bullet	:	A0	:	X[-18,0], T[42,480], D[Normal]
+Bullet	:	A0	:	X[-12,0], T[42,480], D[Normal]
+Bullet	:	A0	:	X[-6,0], T[42,480], D[Normal]
+Bullet	:	A0	:	X[-18,0], T[42,720], D[Normal]
+Bullet	:	A0	:	X[-12,0], T[42,720], D[Normal]
+Bullet	:	A0	:	X[-6,0], T[42,720], D[Normal]
+Bullet	:	A0	:	X[-6,0], T[42,1440], D[Normal]
+Bullet	:	A0	:	X[-12,0], T[42,1440], D[Normal]
+Bullet	:	A0	:	X[-18,0], T[42,1440], D[Normal]
+Bullet	:	A0	:	X[-18,0], T[42,1680], D[Normal]
+Bullet	:	A0	:	X[-6,0], T[42,1680], D[Normal]
+Bullet	:	A0	:	X[-12,0], T[42,1680], D[Normal]
+Bullet	:	A0	:	X[-18,0], T[43,480], D[Normal]
+Bullet	:	A0	:	X[-12,0], T[43,480], D[Normal]
+Bullet	:	A0	:	X[-6,0], T[43,480], D[Normal]
+Bullet	:	A0	:	X[6,0], T[44,480], D[Normal]
+Bullet	:	A0	:	X[12,0], T[44,480], D[Normal]
+Bullet	:	A0	:	X[18,0], T[44,480], D[Normal]
+Bullet	:	A0	:	X[18,0], T[44,720], D[Normal]
+Bullet	:	A0	:	X[12,0], T[44,720], D[Normal]
+Bullet	:	A0	:	X[6,0], T[44,720], D[Normal]
+Bullet	:	A0	:	X[6,0], T[44,1440], D[Normal]
+Bullet	:	A0	:	X[18,0], T[44,1440], D[Normal]
+Bullet	:	A0	:	X[12,0], T[44,1440], D[Normal]
+Bullet	:	A0	:	X[6,0], T[45,480], D[Normal]
+Bullet	:	A0	:	X[18,0], T[45,480], D[Normal]
+Bullet	:	A0	:	X[12,0], T[45,480], D[Normal]
+Bullet	:	A0	:	X[18,0], T[45,720], D[Normal]
+Bullet	:	A0	:	X[12,0], T[45,720], D[Normal]
+Bullet	:	A0	:	X[6,0], T[45,720], D[Normal]
+Bullet	:	A0	:	X[12,0], T[45,1440], D[Normal]
+Bullet	:	A0	:	X[18,0], T[45,1440], D[Normal]
+Bullet	:	A0	:	X[6,0], T[45,1440], D[Normal]
+Bullet	:	A0	:	X[18,0], T[46,480], D[Normal]
+Bullet	:	A0	:	X[6,0], T[46,480], D[Normal]
+Bullet	:	A0	:	X[12,0], T[46,480], D[Normal]
+Bullet	:	A0	:	X[18,0], T[46,720], D[Normal]
+Bullet	:	A0	:	X[12,0], T[46,720], D[Normal]
+Bullet	:	A0	:	X[6,0], T[46,720], D[Normal]
+Bullet	:	A0	:	X[6,0], T[46,1440], D[Normal]
+Bullet	:	A0	:	X[12,0], T[46,1440], D[Normal]
+Bullet	:	A0	:	X[18,0], T[46,1440], D[Normal]
+Bullet	:	A0	:	X[6,0], T[47,480], D[Normal]
+Bullet	:	A0	:	X[12,0], T[47,480], D[Normal]
+Bullet	:	A0	:	X[18,0], T[47,480], D[Normal]
+Bullet	:	A0	:	X[6,0], T[47,720], D[Normal]
+Bullet	:	A0	:	X[12,0], T[47,720], D[Normal]
+Bullet	:	A0	:	X[18,0], T[47,720], D[Normal]
+Bullet	:	A0	:	X[6,0], T[47,1440], D[Normal]
+Bullet	:	A0	:	X[12,0], T[47,1440], D[Normal]
+Bullet	:	A0	:	X[18,0], T[47,1440], D[Normal]
+Bullet	:	B7	:	X[-6,0], T[54,0], D[Normal]
+Bullet	:	B7	:	X[12,0], T[54,120], D[Normal]
+Bullet	:	B7	:	X[-12,0], T[54,240], D[Normal]
+Bullet	:	B7	:	X[6,0], T[54,600], D[Normal]
+Bullet	:	B7	:	X[-12,0], T[54,720], D[Normal]
+Bullet	:	B7	:	X[12,0], T[54,960], D[Normal]
+Bullet	:	B7	:	X[-6,0], T[54,1200], D[Normal]
+Bullet	:	B7	:	X[12,0], T[54,1440], D[Normal]
+Bullet	:	B7	:	X[-12,0], T[54,1680], D[Normal]
+Bullet	:	AG	:	X[20,0], T[67,0], D[Normal]
+Bullet	:	AG	:	X[15,2375], T[67,60], D[Normal]
+Bullet	:	AG	:	X[10,179], T[67,120], D[Normal]
+Bullet	:	AG	:	X[5,4095], T[67,180], D[Normal]
+Bullet	:	AG	:	X[2,3773], T[67,240], D[Normal]
+Bullet	:	AG	:	X[0,2111], T[67,300], D[Normal]
+Bullet	:	AG	:	X[-2,2575], T[67,360], D[Normal]
+Bullet	:	AG	:	X[-3,617], T[67,420], D[Normal]
+Bullet	:	AG	:	X[-4,1], T[67,480], D[Normal]
+Bullet	:	AX	:	X[15,0], T[72,420], D[Normal]
+Bullet	:	AX	:	X[12,0], T[72,480], D[Normal]
+Bullet	:	AX	:	X[18,0], T[72,480], D[Normal]
+Bullet	:	AX	:	X[15,0], T[72,540], D[Normal]
+Bullet	:	AX	:	X[-18,0], T[72,900], D[Normal]
+Bullet	:	AX	:	X[-21,0], T[72,960], D[Normal]
+Bullet	:	AX	:	X[-15,0], T[72,960], D[Normal]
+Bullet	:	AX	:	X[-18,0], T[72,1020], D[Normal]
+Bullet	:	AY	:	X[-24,0], T[72,1440], D[Normal]
+Bullet	:	AZ	:	X[-24,0], T[72,1440], D[Normal]
+Bullet	:	AZ	:	X[-12,0], T[72,1440], D[Normal]
+Bullet	:	AY	:	X[-18,0], T[72,1440], D[Normal]
+Bullet	:	AZ	:	X[-6,0], T[72,1440], D[Normal]
+Bullet	:	AY	:	X[-12,0], T[72,1440], D[Normal]
+Bullet	:	AY	:	X[-6,0], T[72,1440], D[Normal]
+Bullet	:	AZ	:	X[-18,0], T[72,1440], D[Normal]
+Bullet	:	AY	:	X[12,0], T[72,1680], D[Normal]
+Bullet	:	AY	:	X[24,0], T[72,1680], D[Normal]
+Bullet	:	AZ	:	X[6,0], T[72,1680], D[Normal]
+Bullet	:	AZ	:	X[24,0], T[72,1680], D[Normal]
+Bullet	:	AZ	:	X[18,0], T[72,1680], D[Normal]
+Bullet	:	AY	:	X[18,0], T[72,1680], D[Normal]
+Bullet	:	AZ	:	X[12,0], T[72,1680], D[Normal]
+Bullet	:	AY	:	X[6,0], T[72,1680], D[Normal]
+Bullet	:	B0	:	X[12,0], T[73,180], D[Normal]
+Bullet	:	B0	:	X[-12,0], T[73,180], D[Normal]
+Bullet	:	B0	:	X[9,0], T[73,240], D[Normal]
+Bullet	:	B0	:	X[15,0], T[73,240], D[Normal]
+Bullet	:	B0	:	X[-9,0], T[73,240], D[Normal]
+Bullet	:	B0	:	X[-15,0], T[73,240], D[Normal]
+Bullet	:	B0	:	X[12,0], T[73,300], D[Normal]
+Bullet	:	B0	:	X[-12,0], T[73,300], D[Normal]
+Bullet	:	B1	:	X[-40,0], T[73,720], D[Normal]
+Bullet	:	B1	:	X[24,0], T[73,720], D[Normal]
+Bullet	:	B1	:	X[8,0], T[73,720], D[Normal]
+Bullet	:	B1	:	X[-8,0], T[73,720], D[Normal]
+Bullet	:	B1	:	X[-24,0], T[73,720], D[Normal]
+Bullet	:	B1	:	X[-32,0], T[73,960], D[Normal]
+Bullet	:	B1	:	X[0,0], T[73,960], D[Normal]
+Bullet	:	B1	:	X[16,0], T[73,960], D[Normal]
+Bullet	:	B1	:	X[32,0], T[73,960], D[Normal]
+Bullet	:	B1	:	X[-16,0], T[73,960], D[Normal]
+Bullet	:	B1	:	X[8,0], T[73,1200], D[Normal]
+Bullet	:	B1	:	X[-24,0], T[73,1200], D[Normal]
+Bullet	:	B1	:	X[-8,0], T[73,1200], D[Normal]
+Bullet	:	B1	:	X[24,0], T[73,1200], D[Normal]
+Bullet	:	B1	:	X[40,0], T[73,1200], D[Normal]
+Bullet	:	B1	:	X[9,0], T[73,1440], D[Normal]
+Bullet	:	B1	:	X[-21,0], T[73,1440], D[Normal]
+Bullet	:	B1	:	X[-6,0], T[73,1440], D[Normal]
+Bullet	:	B1	:	X[24,0], T[73,1440], D[Normal]
+Bullet	:	B2	:	X[8,0], T[74,0], D[Normal]
+Bullet	:	A1	:	X[-24,0], T[74,0], D[Normal]
+Bullet	:	B2	:	X[24,0], T[74,0], D[Normal]
+Bullet	:	B2	:	X[-8,0], T[74,0], D[Normal]
+Bullet	:	B2	:	X[-24,0], T[74,0], D[Normal]
+Bullet	:	B2	:	X[-16,0], T[74,0], D[Normal]
+Bullet	:	A2	:	X[-20,0], T[74,60], D[Normal]
+Bullet	:	A3	:	X[-16,0], T[74,120], D[Normal]
+Bullet	:	A4	:	X[-12,0], T[74,180], D[Normal]
+Bullet	:	A5	:	X[-8,0], T[74,240], D[Normal]
+Bullet	:	B4	:	X[0,0], T[74,480], D[Normal]
+Bullet	:	B3	:	X[0,0], T[74,480], D[Normal]
+Bullet	:	B5	:	X[0,0], T[74,480], D[Normal]
+Bullet	:	B6	:	X[0,0], T[74,480], D[Normal]
+Bullet	:	B6	:	X[0,0], T[74,720], D[Normal]
+Bullet	:	B5	:	X[0,0], T[74,720], D[Normal]
+Bullet	:	B4	:	X[0,0], T[74,720], D[Normal]
+Bullet	:	B3	:	X[0,0], T[74,720], D[Normal]
+Bullet	:	B2	:	X[24,0], T[74,960], D[Normal]
+Bullet	:	B2	:	X[8,0], T[74,960], D[Normal]
+Bullet	:	B2	:	X[16,0], T[74,960], D[Normal]
+Bullet	:	B2	:	X[-8,0], T[74,960], D[Normal]
+Bullet	:	B2	:	X[-24,0], T[74,960], D[Normal]
+Bullet	:	A6	:	X[24,0], T[74,960], D[Normal]
+Bullet	:	A7	:	X[20,0], T[74,1020], D[Normal]
+Bullet	:	A8	:	X[16,0], T[74,1080], D[Normal]
+Bullet	:	A9	:	X[12,0], T[74,1140], D[Normal]
+Bullet	:	AA	:	X[8,0], T[74,1200], D[Normal]
+Bullet	:	B3	:	X[0,0], T[74,1440], D[Normal]
+Bullet	:	B6	:	X[0,0], T[74,1440], D[Normal]
+Bullet	:	B4	:	X[0,0], T[74,1440], D[Normal]
+Bullet	:	B5	:	X[0,0], T[74,1440], D[Normal]
+Bullet	:	B4	:	X[0,0], T[74,1680], D[Normal]
+Bullet	:	B6	:	X[0,0], T[74,1680], D[Normal]
+Bullet	:	B5	:	X[0,0], T[74,1680], D[Normal]
+Bullet	:	B3	:	X[0,0], T[74,1680], D[Normal]
+Bullet	:	AX	:	X[-24,0], T[75,180], D[Normal]
+Bullet	:	AX	:	X[24,0], T[75,180], D[Normal]
+Bullet	:	AX	:	X[0,0], T[75,180], D[Normal]
+Bullet	:	AX	:	X[-20,0], T[75,240], D[Normal]
+Bullet	:	AX	:	X[-28,0], T[75,240], D[Normal]
+Bullet	:	AX	:	X[28,0], T[75,240], D[Normal]
+Bullet	:	AX	:	X[20,0], T[75,240], D[Normal]
+Bullet	:	AX	:	X[-4,0], T[75,240], D[Normal]
+Bullet	:	AX	:	X[4,0], T[75,240], D[Normal]
+Bullet	:	AX	:	X[-24,0], T[75,300], D[Normal]
+Bullet	:	AX	:	X[24,0], T[75,300], D[Normal]
+Bullet	:	AX	:	X[0,0], T[75,300], D[Normal]
+Bullet	:	B4	:	X[12,0], T[75,720], D[Normal]
+Bullet	:	B4	:	X[-12,0], T[75,720], D[Normal]
+Bullet	:	B3	:	X[-12,0], T[75,720], D[Normal]
+Bullet	:	B4	:	X[20,0], T[75,720], D[Normal]
+Bullet	:	B5	:	X[-12,0], T[75,720], D[Normal]
+Bullet	:	B6	:	X[-12,0], T[75,720], D[Normal]
+Bullet	:	B3	:	X[-20,0], T[75,720], D[Normal]
+Bullet	:	B3	:	X[20,0], T[75,720], D[Normal]
+Bullet	:	B5	:	X[12,0], T[75,720], D[Normal]
+Bullet	:	B6	:	X[20,0], T[75,720], D[Normal]
+Bullet	:	B6	:	X[12,0], T[75,720], D[Normal]
+Bullet	:	B6	:	X[-20,0], T[75,720], D[Normal]
+Bullet	:	B5	:	X[-20,0], T[75,720], D[Normal]
+Bullet	:	B4	:	X[-20,0], T[75,720], D[Normal]
+Bullet	:	B5	:	X[20,0], T[75,720], D[Normal]
+Bullet	:	B3	:	X[12,0], T[75,720], D[Normal]
+Bullet	:	B3	:	X[-20,0], T[75,960], D[Normal]
+Bullet	:	B4	:	X[12,0], T[75,960], D[Normal]
+Bullet	:	B3	:	X[20,0], T[75,960], D[Normal]
+Bullet	:	B5	:	X[12,0], T[75,960], D[Normal]
+Bullet	:	B3	:	X[-12,0], T[75,960], D[Normal]
+Bullet	:	B5	:	X[20,0], T[75,960], D[Normal]
+Bullet	:	B4	:	X[20,0], T[75,960], D[Normal]
+Bullet	:	B6	:	X[12,0], T[75,960], D[Normal]
+Bullet	:	B4	:	X[-12,0], T[75,960], D[Normal]
+Bullet	:	B6	:	X[20,0], T[75,960], D[Normal]
+Bullet	:	B5	:	X[-20,0], T[75,960], D[Normal]
+Bullet	:	B6	:	X[-12,0], T[75,960], D[Normal]
+Bullet	:	B6	:	X[-20,0], T[75,960], D[Normal]
+Bullet	:	B5	:	X[-12,0], T[75,960], D[Normal]
+Bullet	:	B4	:	X[-20,0], T[75,960], D[Normal]
+Bullet	:	B3	:	X[12,0], T[75,960], D[Normal]
+Bullet	:	AX	:	X[12,0], T[75,1200], D[Normal]
+Bullet	:	AX	:	X[-12,0], T[75,1200], D[Normal]
+Bullet	:	AX	:	X[-36,0], T[75,1200], D[Normal]
+Bullet	:	AX	:	X[24,0], T[75,1200], D[Normal]
+Bullet	:	AX	:	X[-24,0], T[75,1200], D[Normal]
+Bullet	:	AX	:	X[0,0], T[75,1200], D[Normal]
+Bullet	:	AX	:	X[36,0], T[75,1200], D[Normal]
+Bullet	:	AX	:	X[4,0], T[75,1680], D[Normal]
+Bullet	:	AX	:	X[16,0], T[75,1680], D[Normal]
+Bullet	:	AX	:	X[-20,0], T[75,1680], D[Normal]
+Bullet	:	AX	:	X[28,0], T[75,1680], D[Normal]
+Bullet	:	AX	:	X[40,0], T[75,1680], D[Normal]
+Bullet	:	AX	:	X[-44,0], T[75,1680], D[Normal]
+Bullet	:	AX	:	X[-32,0], T[75,1680], D[Normal]
+Bullet	:	AX	:	X[-8,0], T[75,1680], D[Normal]
+Bullet	:	AR	:	X[-24,0], T[76,0], D[Normal]
+Bullet	:	AR	:	X[-12,0], T[76,60], D[Normal]
+Bullet	:	AS	:	X[0,0], T[76,120], D[Normal]
+Bullet	:	AT	:	X[12,0], T[76,180], D[Normal]
+Bullet	:	AU	:	X[24,0], T[76,240], D[Normal]
+Bullet	:	B4	:	X[0,0], T[76,480], D[Normal]
+Bullet	:	B3	:	X[0,0], T[76,480], D[Normal]
+Bullet	:	B5	:	X[0,0], T[76,480], D[Normal]
+Bullet	:	B6	:	X[0,0], T[76,480], D[Normal]
+Bullet	:	B5	:	X[0,0], T[76,960], D[Normal]
+Bullet	:	B6	:	X[0,0], T[76,960], D[Normal]
+Bullet	:	B4	:	X[0,0], T[76,960], D[Normal]
+Bullet	:	B3	:	X[0,0], T[76,960], D[Normal]
+Bullet	:	A1	:	X[-24,0], T[76,1320], D[Normal]
+Bullet	:	A2	:	X[-20,0], T[76,1380], D[Normal]
+Bullet	:	A3	:	X[-16,0], T[76,1440], D[Normal]
+Bullet	:	A4	:	X[-12,0], T[76,1500], D[Normal]
+Bullet	:	A5	:	X[-8,0], T[76,1560], D[Normal]
+Bullet	:	A6	:	X[24,0], T[76,1740], D[Normal]
+Bullet	:	A7	:	X[20,0], T[76,1800], D[Normal]
+Bullet	:	A8	:	X[16,0], T[76,1860], D[Normal]
+Bullet	:	A9	:	X[12,0], T[77,0], D[Normal]
+Bullet	:	AA	:	X[8,0], T[77,60], D[Normal]
+Bullet	:	AX	:	X[12,0], T[77,480], D[Normal]
+Bullet	:	AX	:	X[0,0], T[77,480], D[Normal]
+Bullet	:	AX	:	X[24,0], T[77,480], D[Normal]
+Bullet	:	AX	:	X[-12,0], T[77,480], D[Normal]
+Bullet	:	AX	:	X[-24,0], T[77,480], D[Normal]
+Bullet	:	A6	:	X[24,0], T[77,960], D[Normal]
+Bullet	:	A7	:	X[20,0], T[77,1020], D[Normal]
+Bullet	:	A8	:	X[16,0], T[77,1080], D[Normal]
+Bullet	:	A9	:	X[12,0], T[77,1140], D[Normal]
+Bullet	:	AA	:	X[8,0], T[77,1200], D[Normal]
+Bullet	:	A1	:	X[-24,0], T[77,1440], D[Normal]
+Bullet	:	A2	:	X[-20,0], T[77,1500], D[Normal]
+Bullet	:	A3	:	X[-16,0], T[77,1560], D[Normal]
+Bullet	:	A4	:	X[-12,0], T[77,1620], D[Normal]
+Bullet	:	A5	:	X[-8,0], T[77,1680], D[Normal]
+Bullet	:	AX	:	X[-4,0], T[78,0], D[Normal]
+Bullet	:	AX	:	X[36,0], T[78,0], D[Normal]
+Bullet	:	AX	:	X[-44,0], T[78,0], D[Normal]
+Bullet	:	AX	:	X[16,0], T[78,0], D[Normal]
+Bullet	:	AX	:	X[-24,0], T[78,0], D[Normal]
+Bullet	:	AX	:	X[-12,0], T[78,240], D[Normal]
+Bullet	:	AX	:	X[28,0], T[78,240], D[Normal]
+Bullet	:	AX	:	X[-52,0], T[78,240], D[Normal]
+Bullet	:	AX	:	X[8,0], T[78,240], D[Normal]
+Bullet	:	AX	:	X[-32,0], T[78,240], D[Normal]
+Bullet	:	AX	:	X[20,0], T[78,480], D[Normal]
+Bullet	:	AX	:	X[0,0], T[78,480], D[Normal]
+Bullet	:	AX	:	X[40,0], T[78,480], D[Normal]
+Bullet	:	AX	:	X[-20,0], T[78,480], D[Normal]
+Bullet	:	A1	:	X[-24,0], T[78,720], D[Normal]
+Bullet	:	A2	:	X[-12,0], T[78,780], D[Normal]
+Bullet	:	A3	:	X[0,0], T[78,840], D[Normal]
+Bullet	:	A4	:	X[12,0], T[78,900], D[Normal]
+Bullet	:	A5	:	X[24,0], T[78,960], D[Normal]
+Bullet	:	B6	:	X[12,0], T[78,1260], D[Normal]
+Bullet	:	B3	:	X[12,0], T[78,1260], D[Normal]
+Bullet	:	B4	:	X[12,0], T[78,1260], D[Normal]
+Bullet	:	B5	:	X[12,0], T[78,1260], D[Normal]
+Bullet	:	B3	:	X[-12,0], T[78,1440], D[Normal]
+Bullet	:	B4	:	X[-12,0], T[78,1440], D[Normal]
+Bullet	:	B5	:	X[-12,0], T[78,1440], D[Normal]
+Bullet	:	B6	:	X[-12,0], T[78,1440], D[Normal]
+Bullet	:	B3	:	X[0,0], T[78,1680], D[Normal]
+Bullet	:	B5	:	X[0,0], T[78,1680], D[Normal]
+Bullet	:	B6	:	X[0,0], T[78,1680], D[Normal]
+Bullet	:	B4	:	X[0,0], T[78,1680], D[Normal]
+Bullet	:	A6	:	X[24,0], T[79,240], D[Normal]
+Bullet	:	A7	:	X[12,0], T[79,300], D[Normal]
+Bullet	:	A8	:	X[0,0], T[79,360], D[Normal]
+Bullet	:	A9	:	X[-12,0], T[79,420], D[Normal]
+Bullet	:	AA	:	X[-24,0], T[79,480], D[Normal]
+Bullet	:	B3	:	X[-24,0], T[79,720], D[Normal]
+Bullet	:	B5	:	X[24,0], T[79,720], D[Normal]
+Bullet	:	B4	:	X[-4,0], T[79,720], D[Normal]
+Bullet	:	B5	:	X[-24,0], T[79,720], D[Normal]
+Bullet	:	B3	:	X[24,0], T[79,720], D[Normal]
+Bullet	:	B6	:	X[-4,0], T[79,720], D[Normal]
+Bullet	:	B4	:	X[-24,0], T[79,720], D[Normal]
+Bullet	:	B6	:	X[-24,0], T[79,720], D[Normal]
+Bullet	:	B4	:	X[24,0], T[79,720], D[Normal]
+Bullet	:	B6	:	X[24,0], T[79,720], D[Normal]
+Bullet	:	B5	:	X[-4,0], T[79,720], D[Normal]
+Bullet	:	B3	:	X[-4,0], T[79,720], D[Normal]
+Bullet	:	B3	:	X[-16,0], T[79,960], D[Normal]
+Bullet	:	B5	:	X[-16,0], T[79,960], D[Normal]
+Bullet	:	B6	:	X[-16,0], T[79,960], D[Normal]
+Bullet	:	B3	:	X[-36,0], T[79,960], D[Normal]
+Bullet	:	B5	:	X[-36,0], T[79,960], D[Normal]
+Bullet	:	B4	:	X[-16,0], T[79,960], D[Normal]
+Bullet	:	B6	:	X[12,0], T[79,960], D[Normal]
+Bullet	:	B6	:	X[-36,0], T[79,960], D[Normal]
+Bullet	:	B4	:	X[-36,0], T[79,960], D[Normal]
+Bullet	:	B4	:	X[12,0], T[79,960], D[Normal]
+Bullet	:	B3	:	X[12,0], T[79,960], D[Normal]
+Bullet	:	B5	:	X[12,0], T[79,960], D[Normal]
+Bullet	:	B5	:	X[-28,0], T[79,1200], D[Normal]
+Bullet	:	B4	:	X[28,0], T[79,1200], D[Normal]
+Bullet	:	B4	:	X[0,0], T[79,1200], D[Normal]
+Bullet	:	B6	:	X[0,0], T[79,1200], D[Normal]
+Bullet	:	B5	:	X[28,0], T[79,1200], D[Normal]
+Bullet	:	B4	:	X[-28,0], T[79,1200], D[Normal]
+Bullet	:	B3	:	X[28,0], T[79,1200], D[Normal]
+Bullet	:	B6	:	X[28,0], T[79,1200], D[Normal]
+Bullet	:	B3	:	X[0,0], T[79,1200], D[Normal]
+Bullet	:	B3	:	X[-28,0], T[79,1200], D[Normal]
+Bullet	:	B5	:	X[0,0], T[79,1200], D[Normal]
+Bullet	:	B6	:	X[-28,0], T[79,1200], D[Normal]
+Bullet	:	B6	:	X[-12,0], T[79,1440], D[Normal]
+Bullet	:	B4	:	X[16,0], T[79,1440], D[Normal]
+Bullet	:	B3	:	X[16,0], T[79,1440], D[Normal]
+Bullet	:	B4	:	X[-12,0], T[79,1440], D[Normal]
+Bullet	:	B6	:	X[16,0], T[79,1440], D[Normal]
+Bullet	:	B3	:	X[-12,0], T[79,1440], D[Normal]
+Bullet	:	B5	:	X[-12,0], T[79,1440], D[Normal]
+Bullet	:	B5	:	X[16,0], T[79,1440], D[Normal]
+Bullet	:	B3	:	X[24,0], T[79,1680], D[Normal]
+Bullet	:	B6	:	X[24,0], T[79,1680], D[Normal]
+Bullet	:	B4	:	X[-24,0], T[79,1680], D[Normal]
+Bullet	:	B4	:	X[24,0], T[79,1680], D[Normal]
+Bullet	:	B5	:	X[4,0], T[79,1680], D[Normal]
+Bullet	:	B3	:	X[4,0], T[79,1680], D[Normal]
+Bullet	:	B3	:	X[-24,0], T[79,1680], D[Normal]
+Bullet	:	B6	:	X[-24,0], T[79,1680], D[Normal]
+Bullet	:	B4	:	X[4,0], T[79,1680], D[Normal]
+Bullet	:	B6	:	X[4,0], T[79,1680], D[Normal]
+Bullet	:	B5	:	X[-24,0], T[79,1680], D[Normal]
+Bullet	:	B5	:	X[24,0], T[79,1680], D[Normal]
+Bullet	:	B3	:	X[-8,0], T[80,0], D[Normal]
+Bullet	:	B5	:	X[-8,0], T[80,0], D[Normal]
+Bullet	:	B4	:	X[-8,0], T[80,0], D[Normal]
+Bullet	:	B6	:	X[-8,0], T[80,0], D[Normal]
+Bullet	:	A0	:	X[24,0], T[118,480], D[Normal]
+Bullet	:	A0	:	X[0,0], T[118,480], D[Normal]
+Bullet	:	A0	:	X[-6,0], T[118,720], D[Normal]
+Bullet	:	A0	:	X[18,0], T[118,720], D[Normal]
+Bullet	:	A0	:	X[-12,0], T[118,960], D[Normal]
+Bullet	:	A0	:	X[12,0], T[118,960], D[Normal]
+Bullet	:	A0	:	X[6,0], T[118,1200], D[Normal]
+Bullet	:	A0	:	X[-18,0], T[118,1200], D[Normal]
+Bullet	:	A0	:	X[0,0], T[118,1440], D[Normal]
+Bullet	:	A0	:	X[-24,0], T[118,1440], D[Normal]
+Bullet	:	A0	:	X[-24,0], T[119,480], D[Normal]
+Bullet	:	A0	:	X[0,0], T[119,480], D[Normal]
+Bullet	:	A0	:	X[-18,0], T[119,720], D[Normal]
+Bullet	:	A0	:	X[6,0], T[119,720], D[Normal]
+Bullet	:	A0	:	X[12,0], T[119,960], D[Normal]
+Bullet	:	A0	:	X[-12,0], T[119,960], D[Normal]
+Bullet	:	A0	:	X[-6,0], T[119,1200], D[Normal]
+Bullet	:	A0	:	X[18,0], T[119,1200], D[Normal]
+Bullet	:	A0	:	X[0,0], T[119,1440], D[Normal]
+Bullet	:	A0	:	X[24,0], T[119,1440], D[Normal]
+Bullet	:	AM	:	X[21,0], T[120,0], D[Normal]
+Bullet	:	AN	:	X[15,0], T[120,60], D[Normal]
+Bullet	:	AO	:	X[9,0], T[120,120], D[Normal]
+Bullet	:	AP	:	X[3,0], T[120,180], D[Normal]
+Bullet	:	AQ	:	X[-3,0], T[120,240], D[Normal]
+Bullet	:	AH	:	X[-21,0], T[120,960], D[Normal]
+Bullet	:	AI	:	X[-15,0], T[120,1020], D[Normal]
+Bullet	:	AJ	:	X[-9,0], T[120,1080], D[Normal]
+Bullet	:	AK	:	X[-3,0], T[120,1140], D[Normal]
+Bullet	:	AL	:	X[3,0], T[120,1200], D[Normal]
+Bullet	:	AM	:	X[21,0], T[121,960], D[Normal]
+Bullet	:	AN	:	X[15,0], T[121,1020], D[Normal]
+Bullet	:	AO	:	X[9,0], T[121,1080], D[Normal]
+Bullet	:	AP	:	X[3,0], T[121,1140], D[Normal]
+Bullet	:	AQ	:	X[-3,0], T[121,1200], D[Normal]
+Bullet	:	AR	:	X[-9,0], T[122,0], D[Normal]
+Bullet	:	AR	:	X[9,0], T[122,0], D[Normal]
+Bullet	:	AS	:	X[-12,0], T[122,60], D[Normal]
+Bullet	:	AS	:	X[12,0], T[122,60], D[Normal]
+Bullet	:	AT	:	X[-15,0], T[122,120], D[Normal]
+Bullet	:	AT	:	X[15,0], T[122,120], D[Normal]
+Bullet	:	AU	:	X[-18,0], T[122,180], D[Normal]
+Bullet	:	AU	:	X[18,0], T[122,180], D[Normal]
+Bullet	:	AV	:	X[-21,0], T[122,240], D[Normal]
+Bullet	:	AV	:	X[21,0], T[122,240], D[Normal]
+
+LaneBlock	:	Right	:	(T[38,960])	->	(T[39,1680])
+LaneBlock	:	Left	:	(T[38,960])	->	(T[39,1680])
+LaneBlock	:	Left	:	(T[54,0])	->	(T[55,0])
+LaneBlock	:	Right	:	(T[54,0])	->	(T[55,0])
+LaneBlock	:	Left	:	(T[59,1200])	->	(T[62,480])
+LaneBlock	:	Right	:	(T[100,1440])	->	(T[102,480])
+LaneBlock	:	Left	:	(T[100,1440])	->	(T[102,480])
+LaneBlock	:	Right	:	(T[103,1680])	->	(T[104,960])
+
+Flick	:	X[12,0], T[20,0], C[False], D[Right]
+Flick	:	X[-12,0], T[21,0], C[False], D[Left]
+Flick	:	X[0,0], T[38,1680], C[False], D[Left]
+Flick	:	X[0,0], T[39,240], C[False], D[Right]
+Flick	:	X[0,0], T[39,720], C[False], D[Left]
+Flick	:	X[0,0], T[39,1200], C[False], D[Right]
+Flick	:	X[6,0], T[43,1440], C[False], D[Left]
+Flick	:	X[-6,0], T[43,1440], C[False], D[Left]
+Flick	:	X[6,0], T[60,480], C[False], D[Left]
+Flick	:	X[6,0], T[60,1440], C[False], D[Left]
+Flick	:	X[6,0], T[61,480], C[False], D[Left]
+Flick	:	X[6,0], T[61,1440], C[False], D[Left]
+Flick	:	X[0,0], T[64,0], C[False], D[Right]
+Flick	:	X[6,0], T[66,0], C[False], D[Left]
+Flick	:	X[-6,0], T[66,480], C[False], D[Left]
+Flick	:	X[-18,0], T[66,960], C[False], D[Left]
+Flick	:	X[12,0], T[66,1440], C[False], D[Right]
+Flick	:	X[-12,0], T[66,1680], C[False], D[Left]
+Flick	:	X[0,0], T[68,480], C[False], D[Left]
+Flick	:	X[-12,0], T[68,1440], C[False], D[Left]
+Flick	:	X[0,0], T[69,480], C[False], D[Left]
+Flick	:	X[-12,0], T[69,1440], C[False], D[Left]
+Flick	:	X[-6,0], T[94,480], C[False], D[Left]
+Flick	:	X[-6,0], T[94,1440], C[False], D[Left]
+Flick	:	X[-6,0], T[95,480], C[False], D[Left]
+Flick	:	X[-6,0], T[95,1440], C[False], D[Left]
+Flick	:	X[-6,0], T[100,480], C[False], D[Left]
+Flick	:	X[12,0], T[100,960], C[False], D[Right]
+Flick	:	X[12,0], T[101,480], C[False], D[Left]
+Flick	:	X[-6,0], T[110,0], C[False], D[Left]
+Flick	:	X[-6,0], T[110,960], C[False], D[Left]
+Flick	:	X[-6,0], T[111,0], C[False], D[Left]
+Flick	:	X[-6,0], T[111,960], C[False], D[Left]
+Flick	:	X[-6,0], T[112,0], C[False], D[Left]
+
+Tap	:	16	:	X[12,0], T[2,0], C[False]
+Tap	:	34	:	X[-12,0], T[4,0], C[False]
+Tap	:	18	:	X[12,0], T[5,0], C[False]
+Tap	:	19	:	X[12,0], T[5,960], C[False]
+Tap	:	20	:	X[0,0], T[5,1440], C[False]
+Tap	:	21	:	X[-12,0], T[6,0], C[False]
+Tap	:	22	:	X[-12,0], T[6,480], C[False]
+Tap	:	25	:	X[12,0], T[6,960], C[False]
+Tap	:	23	:	X[0,0], T[6,960], C[False]
+Tap	:	33	:	X[-12,0], T[6,960], C[False]
+Tap	:	24	:	X[0,0], T[6,1200], C[False]
+Tap	:	26	:	X[12,0], T[6,1200], C[False]
+Tap	:	32	:	X[-12,0], T[6,1200], C[False]
+Tap	:	29	:	X[12,0], T[6,1680], C[False]
+Tap	:	30	:	X[0,0], T[7,240], C[False]
+Tap	:	31	:	X[-12,0], T[7,720], C[False]
+Tap	:	28	:	X[0,0], T[7,1200], C[False]
+Tap	:	27	:	X[0,0], T[7,1440], C[False]
+Tap	:	35	:	X[18,0], T[8,960], C[False]
+Tap	:	35	:	X[18,0], T[8,1440], C[False]
+Tap	:	35	:	X[18,0], T[8,1680], C[False]
+Tap	:	35	:	X[18,0], T[9,240], C[False]
+Tap	:	35	:	X[18,0], T[9,480], C[False]
+Tap	:	35	:	X[18,0], T[9,960], C[False]
+Tap	:	35	:	X[18,0], T[9,1440], C[False]
+Tap	:	36	:	X[-18,0], T[10,960], C[False]
+Tap	:	36	:	X[-18,0], T[10,1440], C[False]
+Tap	:	36	:	X[-18,0], T[10,1680], C[False]
+Tap	:	36	:	X[-18,0], T[11,240], C[False]
+Tap	:	36	:	X[-18,0], T[11,480], C[False]
+Tap	:	36	:	X[-18,0], T[11,960], C[False]
+Tap	:	36	:	X[-18,0], T[11,1440], C[False]
+Tap	:	37	:	X[0,0], T[12,960], C[False]
+Tap	:	37	:	X[0,0], T[12,1440], C[False]
+Tap	:	37	:	X[0,0], T[12,1680], C[False]
+Tap	:	37	:	X[0,0], T[13,240], C[False]
+Tap	:	37	:	X[0,0], T[13,480], C[False]
+Tap	:	37	:	X[0,0], T[13,960], C[False]
+Tap	:	37	:	X[0,0], T[13,1440], C[False]
+Tap	:	35	:	X[6,0], T[14,960], C[False]
+Tap	:	35	:	X[6,0], T[14,1440], C[False]
+Tap	:	35	:	X[6,0], T[14,1680], C[False]
+Tap	:	35	:	X[6,0], T[15,240], C[False]
+Tap	:	35	:	X[6,0], T[15,480], C[False]
+Tap	:	37	:	X[0,0], T[15,720], C[False]
+Tap	:	37	:	X[0,0], T[15,960], C[False]
+Tap	:	36	:	X[-6,0], T[15,1440], C[False]
+Tap	:	35	:	X[18,0], T[16,960], C[False]
+Tap	:	35	:	X[18,0], T[16,1440], C[False]
+Tap	:	35	:	X[18,0], T[16,1680], C[False]
+Tap	:	35	:	X[6,0], T[17,1440], C[False]
+Tap	:	36	:	X[-18,0], T[18,960], C[False]
+Tap	:	36	:	X[-18,0], T[18,1440], C[False]
+Tap	:	36	:	X[-18,0], T[18,1680], C[False]
+Tap	:	36	:	X[-6,0], T[19,1440], C[False]
+Tap	:	35	:	X[18,0], T[20,480], C[False]
+Tap	:	35	:	X[18,0], T[20,720], C[False]
+Tap	:	37	:	X[12,0], T[20,960], C[False]
+Tap	:	37	:	X[12,0], T[20,1200], C[False]
+Tap	:	36	:	X[6,0], T[20,1440], C[False]
+Tap	:	36	:	X[-18,0], T[21,480], C[False]
+Tap	:	36	:	X[-18,0], T[21,720], C[False]
+Tap	:	37	:	X[-12,0], T[21,960], C[False]
+Tap	:	37	:	X[-12,0], T[21,1200], C[False]
+Tap	:	35	:	X[-6,0], T[21,1440], C[False]
+Tap	:	40	:	X[18,0], T[22,0], C[False]
+Tap	:	40	:	X[18,0], T[22,240], C[False]
+Tap	:	36	:	X[-18,0], T[22,480], C[False]
+Tap	:	36	:	X[-18,0], T[22,720], C[False]
+Tap	:	39	:	X[12,0], T[22,960], C[False]
+Tap	:	39	:	X[12,0], T[22,1200], C[False]
+Tap	:	37	:	X[-12,0], T[22,1440], C[False]
+Tap	:	37	:	X[-12,0], T[22,1680], C[False]
+Tap	:	35	:	X[18,0], T[23,240], C[False]
+Tap	:	38	:	X[-18,0], T[23,240], C[False]
+Tap	:	35	:	X[18,0], T[23,480], C[False]
+Tap	:	38	:	X[-18,0], T[23,480], C[False]
+Tap	:	37	:	X[12,0], T[23,720], C[False]
+Tap	:	39	:	X[-12,0], T[23,720], C[False]
+Tap	:	39	:	X[-12,0], T[23,960], C[False]
+Tap	:	37	:	X[12,0], T[23,960], C[False]
+Tap	:	40	:	X[-6,0], T[23,1200], C[False]
+Tap	:	36	:	X[6,0], T[23,1200], C[False]
+Tap	:	47	:	X[18,0], T[26,960], C[False]
+Tap	:	47	:	X[18,0], T[26,1200], C[False]
+Tap	:	46	:	X[6,0], T[26,1680], C[False]
+Tap	:	47	:	X[6,0], T[27,720], C[False]
+Tap	:	47	:	X[6,0], T[27,960], C[False]
+Tap	:	47	:	X[6,0], T[27,1440], C[False]
+Tap	:	46	:	X[6,0], T[28,480], C[False]
+Tap	:	46	:	X[6,0], T[28,720], C[False]
+Tap	:	47	:	X[18,0], T[28,1200], C[False]
+Tap	:	47	:	X[18,0], T[28,1680], C[False]
+Tap	:	46	:	X[6,0], T[29,240], C[False]
+Tap	:	47	:	X[18,0], T[29,720], C[False]
+Tap	:	47	:	X[18,0], T[29,960], C[False]
+Tap	:	46	:	X[6,0], T[29,1200], C[False]
+Tap	:	46	:	X[6,0], T[29,1440], C[False]
+Tap	:	48	:	X[18,0], T[30,1440], C[False]
+Tap	:	48	:	X[15,0], T[30,1680], C[False]
+Tap	:	48	:	X[12,0], T[31,480], C[False]
+Tap	:	48	:	X[12,0], T[31,960], C[False]
+Tap	:	49	:	X[0,0], T[31,1440], C[False]
+Tap	:	56	:	X[12,0], T[32,0], C[False]
+Tap	:	51	:	X[6,0], T[32,960], C[False]
+Tap	:	51	:	X[3,0], T[32,1200], C[False]
+Tap	:	51	:	X[0,0], T[32,1440], C[False]
+Tap	:	51	:	X[-3,0], T[32,1680], C[False]
+Tap	:	51	:	X[-6,0], T[33,0], C[False]
+Tap	:	52	:	X[-12,0], T[33,1440], C[False]
+Tap	:	52	:	X[-12,0], T[34,0], C[False]
+Tap	:	52	:	X[-12,0], T[34,480], C[False]
+Tap	:	57	:	X[-3,0], T[34,720], C[False]
+Tap	:	57	:	X[0,0], T[34,960], C[False]
+Tap	:	57	:	X[3,0], T[34,1200], C[False]
+Tap	:	53	:	X[12,3276], T[35,480], C[False]
+Tap	:	54	:	X[4,3276], T[35,480], C[False]
+Tap	:	53	:	X[9,2457], T[35,720], C[False]
+Tap	:	54	:	X[1,2457], T[35,720], C[False]
+Tap	:	53	:	X[6,1638], T[35,960], C[False]
+Tap	:	54	:	X[-2,1639], T[35,960], C[False]
+Tap	:	54	:	X[-8,0], T[35,1440], C[False]
+Tap	:	53	:	X[0,0], T[35,1440], C[False]
+Tap	:	54	:	X[-8,0], T[36,0], C[False]
+Tap	:	53	:	X[0,0], T[36,0], C[False]
+Tap	:	54	:	X[-6,0], T[36,480], C[False]
+Tap	:	55	:	X[-14,0], T[36,480], C[False]
+Tap	:	54	:	X[-4,0], T[36,720], C[False]
+Tap	:	55	:	X[-12,0], T[36,720], C[False]
+Tap	:	54	:	X[-2,0], T[36,960], C[False]
+Tap	:	55	:	X[-10,0], T[36,960], C[False]
+Tap	:	54	:	X[0,0], T[36,1440], C[False]
+Tap	:	53	:	X[9,1861], T[36,1680], C[False]
+Tap	:	53	:	X[10.908936,0], T[37,240], C[False]
+Tap	:	53	:	X[12.363525,0], T[37,720], C[False]
+Tap	:	53	:	X[13.09082,0], T[37,960], C[False]
+Tap	:	55	:	X[-13.818115,0], T[37,1200], C[False]
+Tap	:	55	:	X[-14.54541,0], T[37,1440], C[False]
+Tap	:	54	:	X[0,0], T[38,0], C[False]
+Tap	:	54	:	X[0,0], T[38,240], C[False]
+Tap	:	54	:	X[0,0], T[38,960], C[False]
+Tap	:	54	:	X[0,0], T[38,1440], C[False]
+Tap	:	55	:	X[-16,0], T[38,1680], C[True]
+Tap	:	53	:	X[16,0], T[39,240], C[True]
+Tap	:	55	:	X[-16,0], T[39,720], C[True]
+Tap	:	53	:	X[16,0], T[39,1200], C[True]
+Tap	:	59	:	X[16,0], T[40,0], C[False]
+Tap	:	61	:	X[-24,0], T[40,480], C[False]
+Tap	:	59	:	X[16,0], T[40,480], C[False]
+Tap	:	59	:	X[16,0], T[40,720], C[False]
+Tap	:	59	:	X[16,0], T[40,960], C[False]
+Tap	:	61	:	X[-24,0], T[40,1440], C[False]
+Tap	:	59	:	X[16,0], T[40,1440], C[False]
+Tap	:	58	:	X[8,0], T[41,0], C[False]
+Tap	:	61	:	X[-24,0], T[41,480], C[False]
+Tap	:	58	:	X[8,0], T[41,480], C[False]
+Tap	:	58	:	X[8,0], T[41,720], C[False]
+Tap	:	58	:	X[8,0], T[41,960], C[False]
+Tap	:	61	:	X[-24,0], T[41,1440], C[False]
+Tap	:	58	:	X[8,0], T[41,1440], C[False]
+Tap	:	60	:	X[0,0], T[42,0], C[False]
+Tap	:	61	:	X[-24,0], T[42,480], C[False]
+Tap	:	60	:	X[0,0], T[42,480], C[False]
+Tap	:	60	:	X[0,0], T[42,720], C[False]
+Tap	:	60	:	X[0,0], T[42,960], C[False]
+Tap	:	61	:	X[-24,0], T[42,1440], C[False]
+Tap	:	60	:	X[0,0], T[42,1440], C[False]
+Tap	:	60	:	X[0,0], T[42,1680], C[False]
+Tap	:	58	:	X[8,0], T[43,0], C[False]
+Tap	:	58	:	X[8,0], T[43,240], C[False]
+Tap	:	61	:	X[-24,0], T[43,480], C[False]
+Tap	:	59	:	X[16,0], T[43,480], C[False]
+Tap	:	59	:	X[16,0], T[43,720], C[False]
+Tap	:	59	:	X[16,0], T[43,960], C[False]
+Tap	:	61	:	X[-24,0], T[43,1440], C[False]
+Tap	:	60	:	X[-16,0], T[44,0], C[False]
+Tap	:	60	:	X[-16,0], T[44,480], C[False]
+Tap	:	0	:	X[24,0], T[44,480], C[False]
+Tap	:	60	:	X[-16,0], T[44,720], C[False]
+Tap	:	60	:	X[-16,0], T[44,960], C[False]
+Tap	:	0	:	X[24,0], T[44,1440], C[False]
+Tap	:	60	:	X[-16,0], T[44,1440], C[False]
+Tap	:	58	:	X[-8,0], T[45,0], C[False]
+Tap	:	58	:	X[-8,0], T[45,480], C[False]
+Tap	:	0	:	X[24,0], T[45,480], C[False]
+Tap	:	58	:	X[-8,0], T[45,720], C[False]
+Tap	:	58	:	X[-8,0], T[45,960], C[False]
+Tap	:	0	:	X[24,0], T[45,1440], C[False]
+Tap	:	58	:	X[-8,0], T[45,1440], C[False]
+Tap	:	59	:	X[0,0], T[46,0], C[False]
+Tap	:	0	:	X[24,0], T[46,480], C[False]
+Tap	:	59	:	X[0,0], T[46,480], C[False]
+Tap	:	59	:	X[0,0], T[46,720], C[False]
+Tap	:	58	:	X[-8,0], T[46,960], C[False]
+Tap	:	0	:	X[24,0], T[46,960], C[False]
+Tap	:	58	:	X[-8,0], T[46,1200], C[False]
+Tap	:	0	:	X[24,0], T[46,1440], C[False]
+Tap	:	60	:	X[-16,0], T[46,1440], C[False]
+Tap	:	60	:	X[-16,0], T[46,1680], C[False]
+Tap	:	0	:	X[24,0], T[47,0], C[False]
+Tap	:	59	:	X[0,0], T[47,0], C[False]
+Tap	:	59	:	X[0,0], T[47,240], C[False]
+Tap	:	0	:	X[24,0], T[47,480], C[False]
+Tap	:	58	:	X[-8,0], T[47,480], C[False]
+Tap	:	58	:	X[-8,0], T[47,720], C[False]
+Tap	:	0	:	X[24,0], T[47,960], C[False]
+Tap	:	62	:	X[0,0], T[48,0], C[False]
+Tap	:	63	:	X[16,0], T[48,960], C[False]
+Tap	:	64	:	X[-8,0], T[49,0], C[False]
+Tap	:	65	:	X[8,0], T[49,960], C[False]
+Tap	:	59	:	X[8,0], T[50,0], C[False]
+Tap	:	67	:	X[8,0], T[51,0], C[False]
+Tap	:	68	:	X[-8,0], T[52,0], C[False]
+Tap	:	69	:	X[0,0], T[52,960], C[False]
+Tap	:	70	:	X[0,0], T[53,0], C[False]
+Tap	:	71	:	X[0,0], T[53,960], C[False]
+Tap	:	81	:	X[-18,0], T[56,0], C[False]
+Tap	:	79	:	X[6,0], T[56,0], C[False]
+Tap	:	79	:	X[6,0], T[56,480], C[False]
+Tap	:	78	:	X[12,0], T[56,960], C[False]
+Tap	:	78	:	X[12,0], T[56,1200], C[False]
+Tap	:	80	:	X[18,0], T[56,1440], C[False]
+Tap	:	80	:	X[18,0], T[56,1680], C[False]
+Tap	:	78	:	X[12,0], T[57,480], C[False]
+Tap	:	81	:	X[-18,0], T[57,480], C[False]
+Tap	:	83	:	X[-12,0], T[57,480], C[False]
+Tap	:	80	:	X[18,0], T[57,480], C[False]
+Tap	:	78	:	X[12,0], T[57,720], C[False]
+Tap	:	81	:	X[-18,0], T[57,720], C[False]
+Tap	:	83	:	X[-12,0], T[57,720], C[False]
+Tap	:	80	:	X[18,0], T[57,720], C[False]
+Tap	:	81	:	X[-18,0], T[57,960], C[False]
+Tap	:	80	:	X[18,0], T[57,960], C[False]
+Tap	:	78	:	X[12,0], T[57,960], C[False]
+Tap	:	83	:	X[-12,0], T[57,960], C[False]
+Tap	:	78	:	X[12,0], T[57,1440], C[False]
+Tap	:	80	:	X[18,0], T[57,1440], C[False]
+Tap	:	81	:	X[-18,0], T[58,480], C[False]
+Tap	:	81	:	X[-18,0], T[58,720], C[False]
+Tap	:	83	:	X[-12,0], T[58,960], C[False]
+Tap	:	83	:	X[-12,0], T[58,1200], C[False]
+Tap	:	82	:	X[-6,0], T[58,1440], C[False]
+Tap	:	82	:	X[-6,0], T[58,1680], C[False]
+Tap	:	80	:	X[18,0], T[59,480], C[False]
+Tap	:	79	:	X[6,0], T[59,960], C[False]
+Tap	:	79	:	X[6,0], T[59,1200], C[False]
+Tap	:	80	:	X[18,0], T[59,1440], C[False]
+Tap	:	80	:	X[18,0], T[60,0], C[False]
+Tap	:	2	:	X[24,0], T[60,480], C[False]
+Tap	:	80	:	X[18,0], T[60,720], C[False]
+Tap	:	80	:	X[18,0], T[60,960], C[False]
+Tap	:	80	:	X[18,0], T[60,1200], C[False]
+Tap	:	2	:	X[24,0], T[60,1440], C[False]
+Tap	:	80	:	X[18,0], T[60,1680], C[False]
+Tap	:	80	:	X[18,0], T[61,0], C[False]
+Tap	:	80	:	X[18,0], T[61,240], C[False]
+Tap	:	2	:	X[24,0], T[61,480], C[False]
+Tap	:	80	:	X[18,0], T[61,720], C[False]
+Tap	:	80	:	X[18,0], T[61,960], C[False]
+Tap	:	80	:	X[18,0], T[61,1200], C[False]
+Tap	:	2	:	X[24,0], T[61,1440], C[False]
+Tap	:	80	:	X[18,0], T[62,0], C[False]
+Tap	:	80	:	X[18,0], T[62,480], C[False]
+Tap	:	84	:	X[-18,0], T[62,960], C[False]
+Tap	:	88	:	X[12,0], T[62,1440], C[False]
+Tap	:	87	:	X[6,0], T[63,960], C[False]
+Tap	:	87	:	X[6,0], T[63,1200], C[False]
+Tap	:	87	:	X[6,0], T[63,1440], C[False]
+Tap	:	88	:	X[12,0], T[64,0], C[False]
+Tap	:	80	:	X[16.736816,0], T[64,480], C[False]
+Tap	:	88	:	X[6.9472656,0], T[64,960], C[False]
+Tap	:	87	:	X[-3.4736328,0], T[64,1200], C[False]
+Tap	:	88	:	X[4.4208984,0], T[64,1440], C[False]
+Tap	:	80	:	X[13.578857,0], T[64,1680], C[False]
+Tap	:	88	:	X[1.8945312,0], T[65,0], C[False]
+Tap	:	88	:	X[0,0], T[65,480], C[False]
+Tap	:	87	:	X[-12,0], T[65,720], C[False]
+Tap	:	88	:	X[0,0], T[65,960], C[False]
+Tap	:	80	:	X[12,0], T[65,1440], C[False]
+Tap	:	80	:	X[12,0], T[66,0], C[False]
+Tap	:	88	:	X[0,0], T[66,480], C[False]
+Tap	:	87	:	X[-12,0], T[66,960], C[False]
+Tap	:	2	:	X[24,0], T[66,1440], C[False]
+Tap	:	87	:	X[-12,0], T[67,960], C[False]
+Tap	:	87	:	X[-12,0], T[67,1200], C[False]
+Tap	:	88	:	X[0,0], T[67,1440], C[False]
+Tap	:	88	:	X[0,0], T[67,1680], C[False]
+Tap	:	80	:	X[12,0], T[68,0], C[False]
+Tap	:	80	:	X[12,0], T[68,480], C[False]
+Tap	:	80	:	X[12,0], T[68,960], C[False]
+Tap	:	80	:	X[12,0], T[68,1200], C[False]
+Tap	:	80	:	X[12,0], T[68,1440], C[False]
+Tap	:	80	:	X[12,0], T[69,0], C[False]
+Tap	:	80	:	X[12,0], T[69,480], C[False]
+Tap	:	80	:	X[12,0], T[69,960], C[False]
+Tap	:	80	:	X[12,0], T[69,1200], C[False]
+Tap	:	80	:	X[12,0], T[69,1440], C[False]
+Tap	:	80	:	X[0,0], T[70,1680], C[False]
+Tap	:	80	:	X[0,0], T[71,240], C[False]
+Tap	:	80	:	X[0,0], T[71,480], C[False]
+Tap	:	80	:	X[0,0], T[71,960], C[False]
+Tap	:	80	:	X[0,0], T[71,1440], C[False]
+Tap	:	80	:	X[0,0], T[72,0], C[False]
+Tap	:	91	:	X[0,0], T[80,0], C[False]
+Tap	:	90	:	X[19.428467,0], T[80,480], C[False]
+Tap	:	89	:	X[8,0], T[80,480], C[False]
+Tap	:	89	:	X[4,0], T[80,960], C[False]
+Tap	:	90	:	X[10.285645,0], T[80,1440], C[False]
+Tap	:	89	:	X[0,0], T[80,1440], C[False]
+Tap	:	90	:	X[8,0], T[80,1680], C[False]
+Tap	:	89	:	X[-2,0], T[80,1680], C[False]
+Tap	:	89	:	X[-6,0], T[81,240], C[False]
+Tap	:	89	:	X[-10,0], T[81,720], C[False]
+Tap	:	91	:	X[-20.799805,0], T[81,1200], C[False]
+Tap	:	89	:	X[-14,0], T[81,1200], C[False]
+Tap	:	91	:	X[-22.399902,0], T[81,1440], C[False]
+Tap	:	89	:	X[-16,0], T[81,1440], C[False]
+Tap	:	92	:	X[0,0], T[82,0], C[False]
+Tap	:	92	:	X[-2.25,0], T[82,480], C[False]
+Tap	:	93	:	X[9,0], T[82,480], C[False]
+Tap	:	92	:	X[-3.375,0], T[82,720], C[False]
+Tap	:	93	:	X[7.5,0], T[82,720], C[False]
+Tap	:	93	:	X[4.5,0], T[82,1200], C[False]
+Tap	:	93	:	X[1.5,0], T[82,1680], C[False]
+Tap	:	93	:	X[-1.5,0], T[83,240], C[False]
+Tap	:	94	:	X[3.375,0], T[83,720], C[False]
+Tap	:	93	:	X[-4.5,0], T[83,720], C[False]
+Tap	:	94	:	X[1.5,0], T[83,960], C[False]
+Tap	:	93	:	X[-6,0], T[83,960], C[False]
+Tap	:	94	:	X[-2.25,0], T[83,1440], C[False]
+Tap	:	97	:	X[18,0], T[84,0], C[False]
+Tap	:	97	:	X[18,0], T[84,240], C[False]
+Tap	:	97	:	X[18,0], T[84,480], C[False]
+Tap	:	97	:	X[18,0], T[84,720], C[False]
+Tap	:	97	:	X[18,0], T[84,960], C[False]
+Tap	:	92	:	X[-18,0], T[84,960], C[False]
+Tap	:	93	:	X[-12,0], T[84,960], C[False]
+Tap	:	96	:	X[12,0], T[84,960], C[False]
+Tap	:	97	:	X[18,0], T[84,1200], C[False]
+Tap	:	96	:	X[12,0], T[84,1200], C[False]
+Tap	:	92	:	X[-18,0], T[84,1200], C[False]
+Tap	:	93	:	X[-12,0], T[84,1200], C[False]
+Tap	:	97	:	X[18,0], T[84,1440], C[False]
+Tap	:	92	:	X[-18,0], T[84,1440], C[False]
+Tap	:	93	:	X[-12,0], T[84,1440], C[False]
+Tap	:	96	:	X[12,0], T[84,1440], C[False]
+Tap	:	97	:	X[18,0], T[84,1680], C[False]
+Tap	:	93	:	X[-12,0], T[84,1680], C[False]
+Tap	:	96	:	X[12,0], T[84,1680], C[False]
+Tap	:	92	:	X[-18,0], T[84,1680], C[False]
+Tap	:	96	:	X[12,0], T[85,0], C[False]
+Tap	:	95	:	X[6,0], T[85,0], C[False]
+Tap	:	97	:	X[18,0], T[85,0], C[False]
+Tap	:	94	:	X[-6,0], T[85,0], C[False]
+Tap	:	92	:	X[-18,0], T[85,0], C[False]
+Tap	:	93	:	X[-12,0], T[85,0], C[False]
+Tap	:	92	:	X[-18,0], T[85,240], C[False]
+Tap	:	96	:	X[12,0], T[85,240], C[False]
+Tap	:	97	:	X[18,0], T[85,240], C[False]
+Tap	:	94	:	X[-6,0], T[85,240], C[False]
+Tap	:	93	:	X[-12,0], T[85,240], C[False]
+Tap	:	95	:	X[6,0], T[85,240], C[False]
+Tap	:	96	:	X[12,0], T[85,480], C[False]
+Tap	:	95	:	X[6,0], T[85,480], C[False]
+Tap	:	97	:	X[18,0], T[85,480], C[False]
+Tap	:	93	:	X[-12,0], T[85,480], C[False]
+Tap	:	94	:	X[-6,0], T[85,480], C[False]
+Tap	:	92	:	X[-18,0], T[85,480], C[False]
+Tap	:	95	:	X[6,0], T[85,720], C[False]
+Tap	:	96	:	X[12,0], T[85,720], C[False]
+Tap	:	97	:	X[18,0], T[85,720], C[False]
+Tap	:	94	:	X[-6,0], T[85,720], C[False]
+Tap	:	93	:	X[-12,0], T[85,720], C[False]
+Tap	:	92	:	X[-18,0], T[85,720], C[False]
+Tap	:	96	:	X[12,0], T[85,960], C[False]
+Tap	:	95	:	X[6,0], T[85,960], C[False]
+Tap	:	97	:	X[18,0], T[85,960], C[False]
+Tap	:	94	:	X[-6,0], T[85,960], C[False]
+Tap	:	93	:	X[-12,0], T[85,960], C[False]
+Tap	:	92	:	X[-18,0], T[85,960], C[False]
+Tap	:	94	:	X[-6,0], T[85,1440], C[False]
+Tap	:	95	:	X[6,0], T[85,1440], C[False]
+Tap	:	93	:	X[-12,0], T[85,1440], C[False]
+Tap	:	97	:	X[18,0], T[85,1440], C[False]
+Tap	:	92	:	X[-18,0], T[85,1440], C[False]
+Tap	:	96	:	X[12,0], T[85,1440], C[False]
+Tap	:	98	:	X[24,0], T[88,0], C[False]
+Tap	:	99	:	X[18,0], T[88,480], C[False]
+Tap	:	100	:	X[24,0], T[88,960], C[False]
+Tap	:	101	:	X[18,0], T[88,1440], C[False]
+Tap	:	102	:	X[18,0], T[90,0], C[False]
+Tap	:	103	:	X[12,0], T[90,480], C[False]
+Tap	:	103	:	X[12,0], T[90,960], C[False]
+Tap	:	103	:	X[12,0], T[90,1200], C[False]
+Tap	:	104	:	X[6,0], T[90,1440], C[False]
+Tap	:	104	:	X[6,0], T[90,1680], C[False]
+Tap	:	107	:	X[-6,0], T[91,480], C[False]
+Tap	:	104	:	X[6,0], T[91,480], C[False]
+Tap	:	106	:	X[-12,0], T[91,480], C[False]
+Tap	:	103	:	X[12,0], T[91,480], C[False]
+Tap	:	104	:	X[6,0], T[91,720], C[False]
+Tap	:	103	:	X[12,0], T[91,720], C[False]
+Tap	:	106	:	X[-12,0], T[91,720], C[False]
+Tap	:	107	:	X[-6,0], T[91,720], C[False]
+Tap	:	106	:	X[-12,0], T[91,960], C[False]
+Tap	:	103	:	X[12,0], T[91,960], C[False]
+Tap	:	107	:	X[-6,0], T[91,960], C[False]
+Tap	:	104	:	X[6,0], T[91,960], C[False]
+Tap	:	106	:	X[-12,0], T[91,1440], C[False]
+Tap	:	107	:	X[-6,0], T[91,1440], C[False]
+Tap	:	104	:	X[6,0], T[92,480], C[False]
+Tap	:	104	:	X[6,0], T[92,720], C[False]
+Tap	:	103	:	X[12,0], T[92,960], C[False]
+Tap	:	103	:	X[12,0], T[92,1200], C[False]
+Tap	:	102	:	X[18,0], T[92,1440], C[False]
+Tap	:	102	:	X[18,0], T[92,1680], C[False]
+Tap	:	102	:	X[18,0], T[93,480], C[False]
+Tap	:	102	:	X[18,0], T[93,960], C[False]
+Tap	:	102	:	X[18,0], T[93,1440], C[False]
+Tap	:	102	:	X[18,0], T[94,0], C[False]
+Tap	:	3	:	X[24,0], T[94,480], C[False]
+Tap	:	102	:	X[18,0], T[94,720], C[False]
+Tap	:	102	:	X[18,0], T[94,960], C[False]
+Tap	:	102	:	X[18,0], T[94,1200], C[False]
+Tap	:	3	:	X[24,0], T[94,1440], C[False]
+Tap	:	236	:	X[12,0], T[94,1680], C[False]
+Tap	:	236	:	X[12,0], T[95,0], C[False]
+Tap	:	236	:	X[12,0], T[95,240], C[False]
+Tap	:	3	:	X[24,0], T[95,480], C[False]
+Tap	:	235	:	X[6,0], T[95,720], C[False]
+Tap	:	235	:	X[6,0], T[95,960], C[False]
+Tap	:	235	:	X[6,0], T[95,1200], C[False]
+Tap	:	3	:	X[24,0], T[95,1440], C[False]
+Tap	:	236	:	X[12,0], T[96,0], C[False]
+Tap	:	102	:	X[18,0], T[96,480], C[False]
+Tap	:	102	:	X[16.5,0], T[96,960], C[False]
+Tap	:	102	:	X[15.75,0], T[96,1200], C[False]
+Tap	:	236	:	X[6,0], T[96,1440], C[False]
+Tap	:	235	:	X[-5.25,0], T[96,1680], C[False]
+Tap	:	102	:	X[12,0], T[97,960], C[False]
+Tap	:	102	:	X[12,0], T[97,1200], C[False]
+Tap	:	235	:	X[-12,0], T[97,1440], C[False]
+Tap	:	3	:	X[24,0], T[98,0], C[False]
+Tap	:	9	:	X[12,0], T[98,480], C[False]
+Tap	:	5	:	X[7.199951,0], T[98,960], C[False]
+Tap	:	8	:	X[2.3999023,0], T[98,1440], C[False]
+Tap	:	6	:	X[-16.199951,0], T[99,240], C[False]
+Tap	:	4	:	X[-11.399902,0], T[99,720], C[False]
+Tap	:	7	:	X[-6,0], T[99,1200], C[False]
+Tap	:	3	:	X[24,0], T[100,0], C[False]
+Tap	:	3	:	X[24,0], T[100,1440], C[False]
+Tap	:	109	:	X[-8,0], T[102,0], C[False]
+Tap	:	109	:	X[-4,0], T[102,240], C[False]
+Tap	:	109	:	X[0,0], T[102,960], C[False]
+Tap	:	111	:	X[12,0], T[103,960], C[False]
+Tap	:	111	:	X[12,0], T[103,1440], C[False]
+Tap	:	112	:	X[-12,0], T[104,1680], C[False]
+Tap	:	112	:	X[-12,0], T[105,0], C[False]
+Tap	:	113	:	X[0,0], T[105,240], C[False]
+Tap	:	113	:	X[0,0], T[105,480], C[False]
+Tap	:	114	:	X[12,0], T[105,960], C[False]
+Tap	:	113	:	X[0,0], T[105,1440], C[False]
+Tap	:	112	:	X[-12,0], T[106,0], C[False]
+Tap	:	166	:	X[9,0], T[107,1440], C[False]
+Tap	:	119	:	X[12,0], T[108,0], C[False]
+Tap	:	120	:	X[12,0], T[108,720], C[False]
+Tap	:	121	:	X[12,0], T[108,1440], C[False]
+Tap	:	116	:	X[24,0], T[109,1440], C[False]
+Tap	:	123	:	X[12,0], T[110,0], C[False]
+Tap	:	116	:	X[24,0], T[110,480], C[False]
+Tap	:	125	:	X[12,0], T[110,960], C[False]
+Tap	:	116	:	X[24,0], T[110,1440], C[False]
+Tap	:	127	:	X[12,0], T[111,0], C[False]
+Tap	:	116	:	X[24,0], T[111,480], C[False]
+Tap	:	129	:	X[12,0], T[111,960], C[False]
+Tap	:	116	:	X[24,0], T[111,1440], C[False]
+Tap	:	131	:	X[12,0], T[112,0], C[False]
+Tap	:	135	:	X[12,0], T[114,0], C[False]
+Tap	:	139	:	X[-6,0], T[114,960], C[False]
+Tap	:	139	:	X[-6,0], T[114,1200], C[False]
+Tap	:	137	:	X[-18,0], T[114,1440], C[False]
+Tap	:	137	:	X[-18,0], T[114,1680], C[False]
+Tap	:	137	:	X[-18,0], T[115,240], C[False]
+Tap	:	134	:	X[6,0], T[115,960], C[False]
+Tap	:	134	:	X[6,0], T[115,1440], C[False]
+Tap	:	139	:	X[-6,0], T[116,0], C[False]
+Tap	:	134	:	X[6,0], T[116,960], C[False]
+Tap	:	134	:	X[6,0], T[116,1200], C[False]
+Tap	:	136	:	X[18,0], T[116,1440], C[False]
+Tap	:	136	:	X[18,0], T[116,1680], C[False]
+Tap	:	135	:	X[12,0], T[117,240], C[False]
+Tap	:	135	:	X[12,0], T[117,480], C[False]
+Tap	:	146	:	X[0,0], T[118,0], C[False]
+Tap	:	140	:	X[12,0], T[118,480], C[False]
+Tap	:	141	:	X[6,0], T[118,720], C[False]
+Tap	:	142	:	X[0,0], T[118,960], C[False]
+Tap	:	143	:	X[-6,0], T[118,1200], C[False]
+Tap	:	144	:	X[-12,0], T[118,1440], C[False]
+Tap	:	145	:	X[0,0], T[119,0], C[False]
+Tap	:	147	:	X[-12,0], T[119,480], C[False]
+Tap	:	148	:	X[-6,0], T[119,720], C[False]
+Tap	:	149	:	X[0,0], T[119,960], C[False]
+Tap	:	150	:	X[6,0], T[119,1200], C[False]
+Tap	:	151	:	X[12,0], T[119,1440], C[False]
+Tap	:	154	:	X[-9,0], T[120,0], C[False]
+Tap	:	155	:	X[-15,0], T[120,240], C[False]
+Tap	:	152	:	X[-6,0], T[120,480], C[False]
+Tap	:	153	:	X[6,0], T[120,720], C[False]
+Tap	:	156	:	X[9,0], T[120,960], C[False]
+Tap	:	157	:	X[15,0], T[120,1200], C[False]
+Tap	:	158	:	X[6,0], T[120,1440], C[False]
+Tap	:	159	:	X[0,0], T[120,1680], C[False]
+Tap	:	160	:	X[-12,0], T[121,240], C[False]
+Tap	:	161	:	X[12,0], T[121,480], C[False]
+Tap	:	162	:	X[0,0], T[121,720], C[False]
+Tap	:	165	:	X[12,0], T[121,960], C[False]
+Tap	:	163	:	X[-15,0], T[121,1200], C[False]
+Tap	:	167	:	X[12,0], T[124,0], C[False]
+Tap	:	168	:	X[-12,0], T[126,0], C[False]
+Tap	:	169	:	X[0,0], T[127,0], C[False]
+Tap	:	170	:	X[12,0], T[127,960], C[False]
+Tap	:	171	:	X[12,0], T[128,0], C[False]
+Tap	:	172	:	X[0,0], T[128,480], C[False]
+Tap	:	173	:	X[-12,0], T[128,960], C[False]
+Tap	:	174	:	X[18,0], T[128,1440], C[False]
+Tap	:	175	:	X[12,0], T[128,1680], C[False]
+Tap	:	176	:	X[0,0], T[129,240], C[False]
+Tap	:	177	:	X[0,0], T[129,720], C[False]
+Tap	:	178	:	X[-12,0], T[129,1200], C[False]
+Tap	:	179	:	X[-18,0], T[129,1440], C[False]
+
+Hold	:	35, False, False	:	(X[18,0], T[8, 0])	->	(X[18,0], T[8,480])
+Hold	:	36, False, False	:	(X[-18,0], T[10, 0])	->	(X[-18,0], T[10,480])
+Hold	:	37, False, False	:	(X[0,0], T[12, 0])	->	(X[0,0], T[12,480])
+Hold	:	35, False, False	:	(X[-4,1639], T[14, 0])	->	(X[6,0], T[14,480])
+Hold	:	35, False, False	:	(X[18,0], T[16, 0])	->	(X[18,0], T[16,480])
+Hold	:	35, False, False	:	(X[18,0], T[17, 240])	->	(X[10,3276], T[17,960])
+Hold	:	36, False, False	:	(X[-18,0], T[18, 0])	->	(X[-18,0], T[18,480])
+Hold	:	36, False, False	:	(X[-18,0], T[19, 240])	->	(X[-11,820], T[19,960])
+Hold	:	41, False, False	:	(X[12,0], T[24, 0])	->	(X[-6,0], T[24,720])
+Hold	:	42, False, False	:	(X[-18,0], T[24, 720])	->	(X[12,0], T[24,1440])
+Hold	:	43, False, False	:	(X[18,0], T[24, 1440])	->	(X[-6,0], T[25,240])
+Hold	:	44, False, False	:	(X[-18,0], T[25, 240])	->	(X[0,0], T[25,960])
+Hold	:	45, False, False	:	(X[18,0], T[25, 960])	->	(X[6,0], T[25,1440])
+Hold	:	46, False, False	:	(X[-12,0], T[25, 1440])	->	(X[6,0], T[26,480])
+Hold	:	47, False, False	:	(X[18,0], T[26, 0])	->	(X[18,0], T[26,480])
+Hold	:	46, False, False	:	(X[6,0], T[27, 240])	->	(X[-6,0], T[27,960])
+Hold	:	47, False, False	:	(X[6,0], T[28, 0])	->	(X[18,0], T[28,720])
+Hold	:	47, False, False	:	(X[18,0], T[30, 0])	->	(X[18,0], T[30,720])
+Hold	:	56, False, False	:	(X[12,0], T[32, 480])	->	(X[0,0], T[33,0])
+Hold	:	51, False, False	:	(X[-6,0], T[33, 480])	->	(X[-6,0], T[33,960])
+Hold	:	57, False, False	:	(X[6,0], T[34, 1440])	->	(X[7,1365], T[35,0])
+Hold	:	58, False, False	:	(X[-8,0], T[47, 960])	->	(X[-8,0], T[47,1440])
+Hold	:	72, False, False	:	(X[0,0], T[54, 0])	->	(X[0,0], T[55,0])
+Hold	:	81, False, False	:	(X[-18,0], T[56, 480])	->	(X[-18,0], T[57,0])
+Hold	:	78, False, False	:	(X[12,0], T[58, 0])	->	(X[12,0], T[59,0])
+Hold	:	80, False, False	:	(X[18,0], T[58, 0])	->	(X[18,0], T[59,0])
+Hold	:	80, False, False	:	(X[18,0], T[62, 720])	->	(X[18,0], T[62,1200])
+Hold	:	84, False, False	:	(X[-18,0], T[62, 1200])	->	(X[-18,0], T[62,1680])
+Hold	:	88, False, False	:	(X[12,0], T[62, 1680])	->	(X[12,0], T[63,480])
+Hold	:	2, False, True	:	(X[24,0], T[66, 1680])	->	(X[24,0], T[67,480])
+Hold	:	80, False, False	:	(X[12,0], T[70, 0])	->	(X[0,0], T[70,960])
+Hold	:	97, False, False	:	(X[18,0], T[86, 0])	->	(X[-6,3406], T[87,960])
+Hold	:	107, False, False	:	(X[-6,0], T[90, 0])	->	(X[-6,0], T[91,0])
+Hold	:	106, False, False	:	(X[-12,0], T[92, 0])	->	(X[-12,0], T[93,0])
+Hold	:	107, False, False	:	(X[-6,0], T[92, 0])	->	(X[-6,0], T[93,0])
+Hold	:	108, False, True	:	(X[-24,0], T[98, 0])	->	(X[-24,0], T[99,0])
+Hold	:	9, False, False	:	(X[12,2457], T[98, 720])	->	(X[0,0], T[100,960])
+Hold	:	5, False, False	:	(X[7,3276], T[98, 1200])	->	(X[-6,0], T[100,960])
+Hold	:	8, False, False	:	(X[3,0], T[98, 1680])	->	(X[-12,0], T[100,960])
+Hold	:	6, False, False	:	(X[-17,820], T[99, 480])	->	(X[-12,0], T[100,960])
+Hold	:	4, False, False	:	(X[-12,0], T[99, 960])	->	(X[-6,0], T[100,960])
+Hold	:	7, False, False	:	(X[-6,0], T[99, 1440])	->	(X[0,0], T[100,960])
+Hold	:	108, False, True	:	(X[-24,0], T[100, 1680])	->	(X[-24,0], T[101,960])
+Hold	:	111, False, False	:	(X[-12,0], T[101, 1440])	->	(X[6,0], T[102,240])
+Hold	:	109, False, False	:	(X[0,0], T[102, 1200])	->	(X[0,0], T[102,1680])
+Hold	:	111, False, False	:	(X[12,0], T[102, 1680])	->	(X[12,0], T[103,480])
+Hold	:	110, False, False	:	(X[-12,0], T[103, 480])	->	(X[-12,0], T[103,1440])
+Hold	:	3, False, True	:	(X[15.01709,0], T[103, 1740])	->	(X[23,4095], T[104,960])
+Hold	:	135, False, False	:	(X[12,0], T[114, 480])	->	(X[12,0], T[114,1680])
+Hold	:	137, False, False	:	(X[-18,0], T[115, 480])	->	(X[-18,0], T[115,1440])
+Hold	:	139, False, False	:	(X[-6,0], T[116, 480])	->	(X[-6,0], T[116,1680])
+Hold	:	135, False, False	:	(X[12,0], T[117, 960])	->	(X[12,0], T[117,1440])
+Hold	:	164, False, False	:	(X[0,0], T[122, 0])	->	(X[0,0], T[122,720])
+
+CurveControlPoint	:	73	:	CLS	:	0	:	0.025	:	(T[49,960],X[-16,0])
+CurveControlPoint	:	241	:	CLS	:	0	:	0.025	:	(T[110,1200],X[12,0])
+CurveControlPoint	:	242	:	CLS	:	0	:	0.025	:	(T[111,240],X[12,0])
+CurveControlPoint	:	243	:	CLS	:	0	:	0.025	:	(T[111,1080],X[12,0])
+CurveControlPoint	:	244	:	CLS	:	0	:	0.025	:	(T[148,480],X[12,0])
+CurveControlPoint	:	245	:	CLS	:	0	:	0.025	:	(T[112,240],X[12,0])
+CurveControlPoint	:	246	:	CLS	:	0	:	0.025	:	(T[110,240],X[12,0])
+CurveControlPoint	:	35	:	LRS	:	1	:	0.025	:	(T[9,1680],X[18,0])	...	(T[9,1680],X[-6,0])
+CurveControlPoint	:	35	:	LRS	:	3	:	0.025	:	(T[11,1680],X[-6,0])	...	(T[11,1680],X[6,0])
+CurveControlPoint	:	59	:	LRS	:	4	:	0.025	:	(T[48,480],X[0,0])	...	(T[48,490],X[16.462093,0])
+CurveControlPoint	:	59	:	LRS	:	5	:	0.025	:	(T[49,0],X[-28,0])
+CurveControlPoint	:	59	:	LRS	:	7	:	0.025	:	(T[51,640],X[8,0])	...	(T[51,640],X[-8,0])
+CurveControlPoint	:	59	:	LRS	:	8	:	0.025	:	(T[52,480],X[-8,0])	...	(T[52,533],X[0,0])
+CurveControlPoint	:	97	:	LRS	:	4	:	0.025	:	(T[87,840],X[60,0])
+CurveControlPoint	:	247	:	LRS	:	0	:	0.025	:	(T[107,600],X[12,0])
+CurveControlPoint	:	247	:	LRS	:	2	:	0.025	:	(T[109,1440],X[12,0])	...	(T[109,240],X[-30,0])	...	(T[109,0],X[12,0])
+CurveControlPoint	:	36	:	LLS	:	2	:	0.025	:	(T[11,1680],X[-18,0])	...	(T[11,1680],X[-6,0])
+CurveControlPoint	:	180	:	WLS	:	0	:	0.025	:	(T[7,840],X[-24,0])
+CurveControlPoint	:	182	:	WLS	:	3	:	0.025	:	(T[17,1448],X[1.1552347,0])
+CurveControlPoint	:	237	:	WLS	:	0	:	0.025	:	(T[87,960],X[-102,0])	...	(T[87,960],X[-30,0])
+CurveControlPoint	:	3	:	WRS	:	8	:	0.025	:	(T[104,240],X[-54,0])
+CurveControlPoint	:	181	:	WRS	:	0	:	0.025	:	(T[7,840],X[24,0])
+CurveControlPoint	:	183	:	WRS	:	1	:	0.025	:	(T[17,1560],X[21,0])
+CurveControlPoint	:	238	:	WRS	:	0	:	0.025	:	(T[87,960],X[102,0])	...	(T[87,960],X[30,0])
+
+Comment	:	ZGFubXU=	:	T[72,0]
+Comment	:	c29mbGFu	:	T[89,0]
+Comment	:	c29mbGFu	:	T[89,960]
+Comment	:	dG9kbw==	:	T[106,0]
+
